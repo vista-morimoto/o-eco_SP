@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="Shift-JIS">
+<meta name="disparea" content="vga" />
+<meta name="viewport" content="width=device-width" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>ドルフィントレーナー専攻（2年制） | 動物専門学校　大阪ECO動物海洋専門学校 大阪エコ</title>
+<!-- InstanceEndEditable -->
+
+<link rel="stylesheet" type="text/css" href="../common/css/import.css" media="all">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/accordion2.js"></script>
+<script type="text/javascript" src="../common/js/accordion.js"></script>
+<script type="text/javascript" src="../common/js/andridver.js"></script>
+<script type="text/javascript" src="../common/js/fixHeight.js"></script>
+<link rel="apple-touch-icon" href="../apple-touch-icon-precomposed.png" />
+
+
+<!-- InstanceBeginEditable name="head" -->
+<meta name="description" content="全国の水族館でドルフィントレーナーとして数多くの卒業生が活躍！現役水族館飼育スタッフが担当する授業や、長期休暇時には泊り込みのドルフィントレーニング実習を実施。在学中にオープンウォーターダイバー、潜水士、小型船舶操縦士1級・2級などの資格を取得を目指し、活躍の場をさらに広げます。" /> 
+<meta name="keywords" content="専門学校,大阪,動物専門学校,大阪動物専門学校,学校,動物,ドルフィントレーナー,アザラシ,アシカトレーナー,水族館飼育スタッフ,水族館解説員,イルカ,クジラガイド" />
+<link rel="canonical" href="http://www.osaka-eco.ac.jp/course/dolphintrainer.html">
+<link rel="stylesheet" type="text/css" href="../common/css/import.css" media="all">
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="mainEvent" type="boolean" value="false" -->
+<!-- InstanceParam name="mainSchool" type="boolean" value="false" -->
+<meta name="twitter:card" content="photo" />
+<meta name="twitter:site" content="@osaka_eco" />
+<meta name="twitter:title" content="大阪ECO動物海洋専門学校" />
+<meta name="twitter:description" content="ドッグ、動物、海洋、環境、フラワーの総合専門学校。ペットトリマー、動物看護師、アニマルセラピー、ドッグカフェ、ペットファッション、動物園飼育、水族館スタッフ、ドルフィントレーナー、野生動物、海洋生物、ブライダルフラワー、フローリストなど様々な職業を目指す専門学校。" />
+<meta name="twitter:image" content="http://osaka-eco.ac.jp/common/img/twitter_photocard.jpg" />
+<meta name="twitter:url" content="http://www.osaka-eco.ac.jp/" />
+
+
+<meta property="og:title" content="大阪ECO動物海洋専門学校" />
+<meta property="og:description" content="ドッグ、動物、海洋、環境、フラワーの総合専門学校。ペットトリマー、動物看護師、アニマルセラピー、ドッグカフェ、ペットファッション、動物園飼育、水族館スタッフ、ドルフィントレーナー、野生動物、海洋生物、ブライダルフラワー、フローリストなど様々な職業を目指す専門学校。" />
+<meta property="og:url" content="http://osaka-eco.ac.jp/" />
+<meta property="og:type" content="website" />
+<script type="text/javascript" src="../common/js/set_ogp.js" charset="utf-8"></script>
+
+</head>
+
+<body id="top">
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- /Facebook --><!-- #BeginLibraryItem "/Library/header.lbi" -->
+<header>
+  <div id="hd_inner">
+    <h1 id="hd_logo"><a href="../index.html"><img src="../common/img/logo.gif" alt="動物 専門学校 大阪ECO動物海洋専門学校" width="198"></a></h1>
+    <nav id="hd_links">
+      <ul>
+        <li><a href="#modal" class="second open"><img src="../common/img/header_menu.png" alt="メニュー"></a></li>
+        <li><a href="http://www.osaka-eco.ac.jp/"><img src="../common/img/header_pc.png" alt="PC"></a></li>
+      </ul>
+    </nav>
+    <!-- /hd_inner --></div>
+</header>
+<div id="modal">
+    <p class="Close"><a href="javascript:$.pageslide.close()">Close</a></p>
+    <p class="textC"><img src="../img/imgIcoFace.gif" width="154" height="15" alt="このアイコンははPCサイトへのリンクです"></p>
+    <h2>体験入学</h2>
+    <nav>
+        <ul>
+            <li><a href="http://www.osaka-eco.ac.jp/event/index.html">体験入学（オープンキャンパス）</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/event/results.html?type[]=3">スペシャルイベント</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/event/myschool.html">Myスクールプログラム</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/event/bus.html">無料送迎バス</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/event/results.html?type[]=1">学校説明会・相談会</a></li>
+        </ul>
+    </nav>
+
+    <h2>学校紹介・教育システム</h2>
+    <nav>
+        <ul>
+            <li><a href="../school">学校紹介・教育システム</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/school/talk.html">ムツゴロウさん×卒業生座談会</a></li>
+            <li><a href="../school/access.html">所在地＆アクセスマップ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/school/event.html">イベント</a></li>
+            <!--<li><a href="../school/dormitory.html">学生マンション紹介</a></li>-->
+            <li><a href="../school/support.html">学生生活サポートシステム</a></li>
+            <!--<li><a href="../school/circle.html">サークル・クラブ活動</a></li>-->
+            <li><a href="../school/practice_class.html">校内実習・授業</a></li>
+            <li><a href="../school/training.html">校外実習</a></li>
+            <li class="small"><a href="../school/project.html">企業プロジェクト</a></li>
+            <!--<li><a href="../school/overseas_training.html">海外実学教育</a></li>-->
+            <li class="small"><a href="../school/w_curriculum.html">Ｗメジャーカリキュラム</a></li>
+            <li><a href="../graduate/seminar">卒後教育セミナー</a></li>
+            <li><a href="../school/faq.html">よくある質問</a></li>
+            <li><a href="../school/link.html">滋慶学園グループ校</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/school/media.html">マスコミ掲載情報</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/school/social.html">SNS公式アカウント一覧</a></li>
+      </ul>
+    </nav>
+    
+    <h2>専攻紹介</h2>
+    <nav>
+        <ul>
+            <li><a href="../course">専攻紹介</a></li><br>
+            <li><a href="animalnurse.html">動物看護師専攻</a></li>
+            <li><a href="animalwelfare.html">動物看護福祉&amp;理学療法専攻</a></li>
+            <li class="small"><a href="dogtrainer.html">ドッグトレーナー専攻</a></li>
+            <li class="small"><a href="dogmaster.html">ドッグマスター専攻</a></li>
+            <li class="small"><a href="pettrimmer.html">ペットトリマー&amp;エステティシャン専攻</a></li>
+            <li class="small"><a href="dogcafe.html">ドッグカフェ専攻</a></li><br>
+            <li><a href="wildanimal.html">野生動物&amp;環境保護専攻</a></li>
+            <li><a href="zookeeper.html">動物園・動物飼育専攻<br />動物園公務員専攻</a></li>
+            <li class="small"><a href="dolphintrainer.html">ドルフィントレーナー専攻</a></li>
+            <li class="small"><a href="aquarist.html">水族館・アクアリスト専攻</a></li>
+            <li class="small"><a href="oceanprotect.html">海洋生物保護専攻</a></li><br>
+            <li><a href="flowershop.html">フラワーショップ&amp;ブライダルフラワー専攻</a></li>
+        </ul>
+    </nav>
+    
+    <h2>講師紹介</h2>
+    <nav>
+        <ul>
+            <li><a href="../instructor">講師紹介</a></li>
+            <li><a href="../instructor">トッププロが教える</a></li>
+            <li><a href="../instructor/index.html#doginstructor">ドッグ系担当講師一覧</a></li>
+            <li><a href="../instructor/index.html#animalinstructor">アニマル系担当講師一覧</a></li>
+            <li><a href="../instructor/index.html#marineinstructor">海洋系担当講師一覧</a></li>
+            <li><a href="../instructor/index.html#natureinstructor">自然環境系担当講師一覧</a></li>
+            <li><a href="../instructor/index.html#flowerinstructor">フラワー系担当講師一覧</a></li>
+        </ul>
+    </nav>
+    
+    <h2>就職・資格</h2>
+    <nav>
+        <ul>
+            <li><a href="../job">就職サポート</a></li><br>
+            <li><a href="../job/career_center.html">キャリアセンター</a></li>
+            <li><a href="../job/job_schedule.html">就職スケジュール</a></li>
+            <li><a href="../job/corporate_results.html">合同企業説明会</a></li>
+            <li><a href="../school/training.html">インターンシップ</a></li>
+            <li><a href="../job/field.html">就職実績</a></li>
+            <li><a href="../job/qualification.html">資　格</a></li>
+            <li><a href="../job/graduate.html">卒業生インタビュー</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/job/jobday01.html">発見！探検！プロの仕事場</a></li>
+            <li><a href="../job/support.html">卒業後支援</a></li>
+        </ul>
+    </nav>
+    
+    <h2>キャンパスライフ</h2>
+    <nav>
+        <ul>
+            <li><a href="../campus">キャンパスライフ</a></li>
+            <li><a href="../campus/equipment.html">施設・設備</a></li>
+            <li><a href="../school/practice_class.html">校内実習・授業</a></li>
+            <li><a href="../school/overseas_training.html">海外実学教育</a></li>
+            <li class="small"><a href="../school/circle.html">サークル・クラブ活動</a></li>
+            <li><a href="../school/eventcalender.html">年間スケジュール</a></li>
+            <li class="small"><a href="../school/dormitory.html">学生マンション紹介</a></li>
+            <li class="small"><a href="../school/support.html">学生生活サポートシステム</a></li>
+            <li><a href="../campus/aroundschool.html">学校周辺環境</a></li>
+            <li><a href="../campus/photo_gallery">大阪ECOの動物たち</a></li>
+            <li><a href="../campus/photo_dogs">実習で協力してくれているワンちゃん達</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/blogs/">大阪ECOのブログ</a></li>
+        </ul>
+    </nav>
+    
+    <h2>入学案内</h2>
+    <nav>
+        <ul>
+            <li><a href="../invitation">入学案内</a></li>
+            <li><a href="../invitation/introduction.html">募集学科・専攻表</a></li>
+            <li><a href="../invitation/eligibility.html">入学資格・出願方法</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/invitation/ao.html">AO入学制度について</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/invitation/flow.html">出願から合格までの流れ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/invitation/transfer.html">編入学制度について</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/invitation/support.html">学費サポート</a></li>
+            <li><a href="../invitation/method.html">出願願書記入方法</a></li>
+        </ul>
+    </nav>
+    
+    <h2>同窓会サイト</h2>
+    <nav>
+        <ul>
+            <li><a href="../graduate/alumni">卒業生の方へ（同窓会）</a></li>
+            <li><a href="../graduate/seminar">ECO 卒後教育セミナー</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/graduate/gmd/index.html">グッドマナードッグ検定指導員</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/graduate/info/index.html">インフォメーション</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/graduate/shop/index.html">卒業生ショップ・会社情報</a></li>
+        </ul>
+    </nav>
+    <h2>訪問者別ガイド</h2>
+    <nav>
+        <ul>
+            <li><a href="../user/for_entry.html">入学をお考えの方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/student/">在校生の方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/user/for_parent.html">保護者の方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/user/abroad.html">留学生の方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/user/for_company.html">企業の方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/user/for_teacher.html">高校生の方へ</a></li>
+        </ul>
+    </nav>
+
+    <p class="Close"><a href="javascript:$.pageslide.close()">Close</a></p>
+</div>
+<script type="text/javascript" src="../common/js/jquery.pageslide.min.js"></script>
+<script>
+	$(".first").pageslide();
+	$(".second").pageslide({direction: "left", modal: true});
+</script><!-- #EndLibraryItem --><!-- InstanceBeginEditable name="Wrapper" -->
+<div id="wrapper" class="courseWrap">
+  <nav id="crumbs">
+  <ul itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+    <li><a href="../" itemprop="url"><span itemprop="title">HOME</span></a></li>
+    <li><a href="../course" itemprop="url"><span itemprop="title">専攻紹介</span></a></li>
+    <li><span itemprop="title">ドルフィントレーナー専攻</span></li>
+  </ul>
+  </nav>
+  <h1><span>ドルフィントレーナー専攻<small>2年制</small></span></h1>
+  <figure>
+    <figcaption>最先端の技術とセンスを磨き、お客様に感動を与えるトレーナーに。</figcaption>
+    <img src="img_dolphintrainer/bg_main.jpg" alt="ドルフィントレーナー専攻" /> </figure>
+  
+  <!--<p class="mainBtn"><a href="http://www.osaka-eco.ac.jp/event/results.html?category[]=303">この専攻の体験メニューを見る</a></p> -->
+  <ul class="PageNav">
+    <li><a href="#Curric">カリキュラム</a></li>
+    <li><a href="#aim">目指せる職場・仕事・資格</a></li>
+  </ul>
+  <section id="CoursePoint">
+    <h2><small>おおさかエコだからできる！</small><br>
+      ドルフィントレーナー･水族館スタッフになるための<span>4</span>つのポイント</h2>
+    <ul class="accordion">
+      <li>
+        <dl>
+          <dt>全国の水族館などが実習・研修・就職の場です！</dt>
+          <dd> <img src="img_dolphintrainer/img_point01.jpg" alt="全国の水族館などが実習・研修・就職の場です！" />全国の水族館があなたの実習・研修、そして就職の場になります。希望する水族館での研修を通して、数多くの卒業生が全国の水族館で就職し、活躍しています。<a href="../job/field.html#sea">就職実績について詳しく</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>実習を通して将来の仕事が見えてきます。</dt>
+          <dd> <img src="img_dolphintrainer/img_point02.jpg" alt="実習を通して将来の仕事が見えてきます。" />イルカ・クジラの町、和歌山太地町でのドルフィントレーニングをはじめ、多くの実習をとおして、プロの知識・技術を身につけます。<a href="../school/training_marine.html">実習施設について詳しく</a></dd>
+        </dl>
+      </li>
+      <!--<li>
+        <dl>
+          <dt>学校所属のイルカが2頭います。</dt>
+          <dd> <img src="img_dolphintrainer/img_point03.jpg" alt="" />実習先でもある「ドルフィン・ベェイス」には学校のイルカが2頭います！また、そこで働く卒業生スタッフ、学ぶ在校生。これが大阪ECO動物海洋専門学校 の勉強のスタイルです。<a href="../school/training_education.html">ドルフィン・ベェイスについて詳しく</a></dd>
+        </dl>
+      </li>-->
+      <li>
+        <dl>
+          <dt>多くの資格を取得し専門分野を広げます！</dt>
+          <dd><img src="img_dolphintrainer/img_point04.jpg" alt="多くの資格を取得し専門分野を広げます！" />オープンウォーターダイバー、潜水士、小型船舶操縦士1級・2級など、さまざまな資格を取得し、活躍の場を広げます。<a href="../job/qualification.html">資格について詳しく</a></dd>
+        </dl>
+      </li>
+    </ul>
+
+    <p id="textbox">イルカを飼育し、種目を教えるだけがドルフィントレーナーの仕事のように思っていませんか。近頃はイルカとふれあえる施設やイルカのウォッチングツアーが人気となり、イルカの生態を楽しく解説する技術やお客様をわくわくさせるエンターテインメント能力、自然保護を理解してもらうための専門知識が求められています。<br>
+      本専攻では海洋生物学や自然保護論などを学ぶほか、オーストラリアなど海外の施設でも実習を行ない、最先端のトレーニング技術とセンスを身につけます。プールや水槽で仕事をするときに必要な潜水士の国家資格取得も目指します。</p>
+  </section>
+  
+    <section class="otherWrap">
+    <h2>実習内容を動画でチェック！</h2>
+    <!--moveWrap-->
+    <div class="moveWrap">
+      <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/e6e2Scm8FXA" frameborder="0" allowfullscreen></iframe>
+      </p>
+    </div>
+    <!-- / moveWrap-->
+    </section>
+  
+  <ul class="PushGray">
+    <li class="linkWcurri"><a href="../school/w_curriculum.html"> <small><strong>追加学費無料</strong>総合学校だからできる！<br>
+      他専攻の科目を選択できる</small> Wメジャーカリキュラム</a></li>
+    <li class="linkSiryou"> <a href="http://www.osaka-eco.ac.jp/event/f-shiryo.html" target="_blank">資料請求</a> </li>
+    <li class="linkTaiken"> <a href="http://www.osaka-eco.ac.jp/event/results.html?category[]=303">この専攻の体験メニューを見る</a> </li>
+  </ul>
+  
+  <div id="aim">
+    <section class="office">
+      <h3>目指せる職場</h3>
+      <ul class="fixHeightChild">
+        <li>水族館</li>
+        <li>イルカふれあい施設</li>
+        <li>ダイビング関連</li>
+        <li>海洋研究所 他</li>
+      </ul>
+      <aside><a href="http://www.osaka-eco.ac.jp/career/jobday12.html" title="夢を叶えた先輩の一日に密着！発見！探検！プロの仕事場" class="OverStyle"><img src="img/footBnrDayOcean.png" alt="夢を叶えた先輩の一日に密着！発見！探検！プロの仕事場" /></a></aside>
+    </section>
+    <section class="job">
+      <h3>目指せる仕事</h3>
+      <ul class="fixHeightChild">
+        <li>ドルフィントレーナー</li>
+        <li>アザラシ・アシカトレーナー</li>
+        <li>水族館飼育スタッフ</li>
+        <li>水族館解説員</li>
+        <li>イルカ・クジラガイド</li>
+        <li>ダイビングインストラクター 他</li>
+      </ul>
+      <aside><a href="../job/graduate.html" title="夢を叶えた先輩の声" class="OverStyle"><img src="img/footBnrVoiceAnimal.png" alt="夢を叶えた先輩の声" /></a></aside>
+    </section>
+    <section class="qualification">
+      <h3>目指せる資格</h3>
+      <ul class="fixHeightChild">
+        <li>潜水士（国家資格）</li>
+        <li>スキューバダイビングライセンス（オープンウォーター）Ｃカード</li>
+        <li>小型船舶操縦免許（１・２級）</li>
+        <li>救命救急（応急処置技能認定講習受講）</li>
+        <li>生物分類技能検定（２or３級） など</li>
+      </ul>
+      <aside><a href="../job/qualification.html" title="就職決定に差がつく！資格取得者の声" class="OverStyle"><img src="img/footBnrLicence.png" alt="就職決定に差がつく！資格取得者の声" /></a></aside>
+    </section>
+  </div>
+  
+    <div id="Gra" class="titGra mt15">
+        <h3><span>活躍する卒業生</span>お客様にも、イルカにも楽しんでもらえる種目を考えられるトレーナーに</h3>
+    </div>
+    <div id="graduatePerson">
+    <p>
+    <img src="img_dolphintrainer/graduate.jpg" alt="尾脇さん" />
+    高校時代から「地上の動物じゃなく、海洋生物とコミュニケーションをとるってどんな気持ちなんだろう」という疑問から興味を持ち、ドルフィントレーナーになりたいと思うようになりました。高校卒業後は学費を稼ぐために２年間アルバイトし、その後、入学しました。大事なのは、諦めない気持ち。そして、「なりたい」ではなく「絶対になる！」という覚悟だと思います。その気持ちを持っていれば、先生や研修先の人にその本気度が伝わり、普通では教えてくれないことも時別に教えてくれます。<br>
+    今の目標は、イルカ達に「尾脇といると楽しいことができるぞ！」と思って貰えるようなトレーナーになることですね。</p>
+    
+    <aside>
+        <dl>
+            <dt><small>就職先:みさき公園</small> 尾脇さん 2008年卒業</dt>
+            <dd>遊園地と動物園、イルカショーが楽しめる総合レジャーランド、みさき公園で、イルカたちの飼育から繁殖、トレーニングの他、イルカショーの企画、演出なども任されている。</dd>
+        </dl>
+    </aside>    
+    
+    
+    </div>
+
+  <section id="Curric">
+    <h2>代表的なカリキュラム（例）</h2>
+    
+    <dl class="fixHeightChild">
+      <dt><span>ドルフィントレーニング</span></dt>
+      <dd><span><img src="img_dolphintrainer/Curric01.jpg" alt="ドルフィントレーニング" /></span>入学後、最初のドルフィントレーニング実習では、調餌・給餌・トレーニングを体験します。</dd>
+    </dl>
+    <dl class="fixHeightChild">
+      <dt><span>ダイビング演習</span></dt>
+      <dd><span><img src="img_dolphintrainer/Curric05.jpg" alt="ダイビング演習" /></span>スキューバダイビングライセンス（オープンウォーターダイバー）を取得するための実習です。</dd>
+    </dl>
+    <dl class="fixHeightChild">
+      <dt><span>水族館研究</span></dt>
+      <dd><span><img src="img_dolphintrainer/Curric02.jpg" alt="水族館研究" /></span>みさき公園・海遊館・須磨海浜水族園をはじめとする様々な水族館で、知識・技術を学びます。
+</dd>
+    </dl>
+       
+    <dl class="fixHeightChild">
+      <dt><span>ヤギトレーニング演習（選択制）</span></dt>
+      <dd><span><img src="img_dolphintrainer/Curric06.jpg" alt="ヤギトレーニング演習（選択制）" /></span>ヤギをトレーニングし、ヤギショーをプロデュースすることでプレゼンテーション能力・ホスピタリティ・知識の向上を目指します。</dd>
+    </dl>
+    <dl class="fixHeightChild">
+      <dt><span>潜水士対策講座</span></dt>
+      <dd><span><img src="img_dolphintrainer/Curric03.jpg" alt="潜水士対策講座" /></span>水族館などの大型水槽や、海底での作業・業務に必要となる潜水士の資格取得を目指します。</dd>
+    </dl>
+    <dl class="fixHeightChild">
+      <dt><span>水生生物飼育管理</span></dt>
+      <dd><span><img src="img_dolphintrainer/Curric04.jpg" alt="水生生物飼育管理" /></span>地下水槽の生物を飼育管理し、水質管理・浄化システムなどの知識・技術の習得、向上を目指します。</dd>
+    </dl>
+  </section>
+  <section class="otherWrap">
+    <h2>その他のカリキュラム<small>（1～2年次）</small><span>総授業時間数＝2年間1800時間以上</span></h2>
+    <ul>
+      <li>水生生物飼育管理</li>
+      <li>海洋哺乳類</li>
+      <li>両生・爬虫類研究</li>
+      <li>博物館学</li>
+      <li>動物の行動</li>
+      <li>フォトテクニック</li>
+    </ul>
+    <ul>
+      <li>アクアフォト</li>
+      <li>海洋保全</li>
+      <li>水生生物</li>
+      <li>海洋生態</li>
+      <li>魚病学</li>
+      <li>観賞魚研究</li>
+    </ul>
+    <ul>
+      <li>インタープリター養成講座</li>
+      <li>船舶免許対策講座</li>
+      <li>ライフセービング</li>
+      <li>海洋活動</li>
+      <li>次世代のための環境教育</li>
+      <li>水族館就職試験対策　他</li>
+    </ul>
+  </section>
+
+    <!--LinkArea-->
+    <div id="LinkArea">
+        <p class="animals"><a href="../campus/photo_fish"><img src="img/img_aqua.png" alt="実習で協力してくれているワンちゃん達" /></a></p>
+    <p class="teacher"><a href="../instructor/index.html#marineinstructor" class="OverStyle" title="海洋系の担当講師">この専攻の講師紹介</a></p>
+    </div>
+    <!-- / LinkArea-->
+
+   
+    <div id="Curric" class="titCurric">
+        <h2>たくさんの実習から、将来のシゴトが見える。</h2>
+    </div>
+    
+    <p>たくさんの実習を通して、現場でプロの「技術」「知識」「心構え」を学びます。</p>
+
+  <section id="Curric">
+    <!--MiniCurric-->
+    <div class="MiniCurric clearfix">
+      <div>
+        <dl>
+          <dt><span>三宅島野性イルカ研修</span></dt>
+          <dd><span><img src="img_dolphintrainer/pickup01.jpg" alt="三宅島野性イルカ研修" /></span>野性のイルカと一緒に泳ぎ、イルカ同士のスキンシップや親子の交流の様子などを観察します。富士箱根伊豆国立公園に指定されている三宅島の、豊かな海を実際に体験することで、自然環境についての意識も高まります。</dd>
+        </dl>
+      </div>
+      <div>
+        <dl>
+          <dt><span>白崎海洋公園ダイビング実習</span></dt>
+          <dd><span><img src="img_dolphintrainer/pickup02.jpg" alt="白崎海洋公園ダイビング実習" /></span>ダイビングインストラクターや2年生の「ダイビングゼミ生」が1年生をサポートします。プールで講習を受けた後、実際に海へ潜り、ダイビングの技術を学びます。</dd>
+        </dl>
+      </div>
+      <div>
+        <dl>
+          <dt><span>水族館見学</span></dt>
+          <dd><span><img src="img_dolphintrainer/pickup03.jpg" alt="水族館見学" /></span>近畿圏やその周辺の水族館を定期的に見学します。より多くの水族館を見学することで、展示方法やショーについての知識を広げます。</dd>
+        </dl>
+      </div>
+    </div>
+    <!-- / MiniCurric-->
+    <p>他にも、卒業生が多数活躍する沖縄イルカ施設への研修旅行など大阪ＥＣＯだからできる実習がたくさんあります。</p>
+  </section>
+
+  <ul class="PushGray">
+    <li class="linkWcurri"><a href="../school/w_curriculum.html"> <small><strong>追加学費無料</strong> 総合学校だからできる！<br>
+      他専攻の科目を選択できる</small> Wメジャーカリキュラム</a></li>
+    <li class="linkSiryou"> <a href="http://www.osaka-eco.ac.jp/event/f-shiryo.html" target="_blank">資料請求</a> </li>
+    <li class="linkTaiken"> <a href="http://www.osaka-eco.ac.jp/event/results.html?category[]=303">この専攻の体験メニューを見る</a> </li>
+  </ul>
+  
+  <!--専攻-->
+  <div id="readOther">
+    <h3>この専攻を見た人はこんな専攻も見ています</h3>
+    <section> <a href="aquarist.html">
+      <div class="readOtherMajor clearfix"> <img src="img/readother_aquarist.jpg" width="54" alt="アクアリスト専攻" />
+        <div class="readOtherMajorTitle">
+          <h4>水族館・アクアリスト専攻</h4>
+          <p>水生生物の飼育や管理について学び、アクア業界で活躍できる人材を目指して。</p>
+        </div>
+      </div>
+      </a> </section>
+   <section> <a href="oceanprotect.html">
+      <div class="readOtherMajor clearfix"> <img src="img/readother_oceanprotect.jpg" width="54" alt="海洋生物保護専攻" />
+        <div class="readOtherMajorTitle">
+          <h4>海洋生物保護専攻</h4>
+          <p>海洋生物と海を愛し守っていくスペシャリストを目指して。</p>
+        </div>
+      </div>
+      </a> </section>
+  </div>
+  <!--専攻END--> 
+  
+</div>
+<!-- InstanceEndEditable -->
+<div id="snsBtn">
+	<ul>
+		<li>
+			<div class="fb-like" data-href="###" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+			<script>(function(){var href = location.href; var fblike = document.querySelector('.fb-like'); fblike.setAttribute('data-href', href);})();</script>
+		</li>
+		<li>
+			<span>
+			<script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+			<script type="text/javascript">
+			new media_line_me.LineButton({"pc":true,"lang":"ja","type":"a"});
+			</script>
+			</span>
+		</li>
+		<li>
+			<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</li>
+	</ul>
+</div>
+
+
+<!-- #BeginLibraryItem "/Library/pageTop.lbi" -->
+
+<p class="pageTop"><a href="#top">ページトップへ</a></p>
+<!-- #EndLibraryItem -->
+
+<nav id="footNav">
+    <ul class="clearfix">
+        <li><a href="http://www.osaka-eco.ac.jp/event/index.html"><img src="../common/img/btnFootEvent.png" alt="体験入学"></a></li>
+        <li><a href="http://www.osaka-eco.ac.jp/event/f-shiryo.html" target="_blank"><img src="../common/img/btnFootSiryo.png" alt="資料請求"></a></li>
+        
+        <!--<li><a href="http://twitter.com/osaka_eco" target="_blank"><img src="../common/img/btnTwitter.png" alt="Twitter" width="150" height="60"></a></li>
+        <li><a href="https://www.facebook.com/osakaeco" target="_blank"><img src="../common/img/btnFacebook.png" alt="Facebook" width="150" height="60"></a></li>-->
+        
+        <li><a href="http://twitter.com/osaka_eco" target="_blank"><img src="../common/img/btnTwitter.png" alt="Twitter" width="58" height="54"></a></li>
+        <li><a href="https://www.facebook.com/osakaeco" target="_blank"><img src="../common/img/btnFacebook.png" alt="Facebook" width="58" height="54"></a></li>
+        <li><a href="http://line.naver.jp/ti/p/%40oeco" target="_blank"><img src="../common/img/btnLine.png" alt="LINE" width="58" height="54"></a></li>
+        <li><a href="http://www.youtube.com/user/ocaeco2/" target="_blank"><img src="../common/img/btnYouTube.png" alt="YouTube" width="58" height="54"></a></li>
+        <li><a href="https://www.instagram.com/osaka_eco/" target="_blank"><img src="../common/img/btnInstagram.png" alt="Instagram" width="58" height="54"></a></li>
+    </ul>
+</nav>
+
+<div id="targetCat">
+    <dl class="accordion">
+        <dt>訪問者別ガイド</dt>
+        <dd>
+            <ul>
+                <li><a href="../user/for_entry.html">入学をお考えの方へ</a></li>
+                <li><a href="http://www.osaka-eco.ac.jp/student/">在学生の方へ</a></li>
+                <li><a href="http://www.osaka-eco.ac.jp/user/for_parent.html">保護者の方へ</a></li>
+                <li><a href="../graduate/seminar/index.html">卒業生の方へ</a></li>
+                <li><a href="http://www.osaka-eco.ac.jp/user/abroad.html">留学生の方へ</a></li>
+                <li><a href="http://www.osaka-eco.ac.jp/user/for_company.html">企業の方へ</a></li>
+                <li><a href="http://www.osaka-eco.ac.jp/user/for_teacher.html">高校の先生方へ</a></li>
+            </ul>
+        </dd>
+    </dl>
+<!-- .target // -->
+</div>
+
+<!--検索-->
+<div id="CustomSearch">
+<script>
+  (function() {
+    var cx = '004908768995136033012:eutvb8qki-c';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div>
+<p class="gray"><small>※検索結果にはPCサイトも含みます</small></p>
+<!-- // 検索--><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+
+<footer>
+  <ul id="device">
+    <li><a href="http://www.osaka-eco.ac.jp/">PCサイト</a></li>
+    <li>スマートフォン</li>
+  </ul>
+  <div id="contact">
+    <ul>
+      <li><a href="tel:0120141807" onclick="javascript&colon;goog_report_conversion('tel:0120141807');yahoo_report_conversion(undefined);ga('send', 'event', '電話リンク', 'タップ');">0120-141-807</a></li>
+      <li><a href="mailto:info@osaka-eco.ac.jp">info@osaka-eco.ac.jp</a></li>
+    </ul>
+  </div>
+  <address>
+  学校法人コミュニケーションアート<br>
+  大阪ECO動物海洋専門学校<br>
+  旧校名・大阪コミュニケーションアート専門学校 ECO<br>
+  学校長 鞍井修一<br>
+  〒550-0013 大阪市西区新町1-32-1
+  </address>
+    <aside id="Approval">
+      <div>
+          <h6>（動物取扱業登録）</h6>
+          <p>120069Ｂ / 070296Ｄ / 120069Ｅ /120069Ｃ</p>
+      </div>
+      <div>
+          <h6>（登録の年月日）</h6>
+          <p>平成19年8月30日（訓練業）、平成24年9月7日（保管業、展示業、貸出し業）</p>
+      </div>
+      <div>
+          <h6>（登録の有効期間の末日）</h6>
+          <p>平成29年8月29日（訓練業）、平成29年9月6日（保管業、展示業、貸出し業）</p>
+      </div>
+      <div>
+          <h6>（登録に係る第一種動物取扱業の種別）</h6>
+          <p>保管・訓練・展示・貸出</p>
+      </div>
+      <div>
+          <h6>（動物取扱責任者）</h6>
+          <p>粟津　邦彦</p>
+      </div>
+    </aside>
+  <small>Copyright &copy; OSAKA COLLEGE OF ECO &amp; ANIMALS.</small>
+  <p><a href="../privacy/index.html">プライバシーポリシー</a></p>
+  <p><a href="../socialpolicy/index.html">ソーシャルメディアポリシー</a></p>
+</footer>
+<!-- #EndLibraryItem --><!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P6RL2D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P6RL2D');</script>
+<!-- End Google Tag Manager -->
+
+<!-- YTMタグ 20141113 start-->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=CX3BG9t";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=CX3BG9t" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- //YTMタグ-->
+
+</body>
+<!-- InstanceEnd --></html>

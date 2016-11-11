@@ -1,0 +1,465 @@
+@charset "utf-8";
+
+/*h1タグ設定
+---------------------------------------------------------------------------*/
+h1#hd_logo{
+	width:60%;
+	margin:auto;
+}
+h1#hd_logo img{
+	width:100%;
+}
+
+h1#hd_logo a.hd_logo_mb{
+	display: none;
+}
+
+h1#hd_logo a.hd_logo_tb{
+	display: block;
+}
+
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	width: auto;
+	padding: 10px 0px;	/*ボックス内の余白*/
+}
+
+/*ヘッダー（サイト名ロゴが入ったブロック）
+---------------------------------------------------------------------------*/
+header {
+	margin-bottom: 0px;
+}
+
+/*ナビゲーション*/
+#topNavi_pc{display:none;}
+
+#topNavi{
+	display:block;
+	padding-left:1px;
+	margin-bottom:10px;
+}
+#topNavi ul{
+	display: table;
+	table-layout: fixed;
+	width:100%;
+}
+#topNavi li{
+	border-right: 1px solid #FFF;
+	display: table-cell;
+}
+#topNavi li:last-child{
+border-right: none;
+}
+
+#topNavi li a{
+	display:block;
+	text-align:center;
+	padding:10px 0;
+	text-decoration:none;
+	font-size:117%;
+	background-color:#8BCD38;
+	border-right:1px solid #FFF;
+	border-bottom:4px solid #EEE;
+	color:#FFF;
+}
+
+#topNavi li.topNavi_mb{
+display:none;
+}
+#topNavi li.topNavi_tb{
+display:block;
+}
+
+
+
+/*タブレット・スマホ専用メニュー
+---------------------------------------------------------------------------*/
+/*メニュー１個ごとの設定*/
+#menubar ul {
+	margin:10px;
+	overflow:hidden;
+}
+#menubar ul li{
+width:49%;
+float:left;
+}
+#menubar ul li:nth-child(even){
+margin-left:2%;
+}
+
+#menubar ul li a{
+	float: none;
+	width: 100%;
+	margin:0 0 6px 0;
+	padding:5px 0;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	font-size:117%;
+	background-color:#C4E699;
+	border-radius: 5px;
+	-webkit-border-radius: 5px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 5px; /* Firefox用 */ 
+	box-shadow:0 3px #8BCD38;
+	border-bottom:1px solid #FFF;
+	}
+#menubar ul li a:hover{
+	box-shadow:none;
+	background-color:#C4E699;
+}
+
+
+/*最後のメニューの設定*/
+#menubar ul li:last-child {
+	margin-bottom: 10px;
+}
+
+/*コンテンツ（main,subを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	width: auto;
+}
+
+/*main,subコンテンツ
+---------------------------------------------------------------------------*/
+#main, #sub {
+	float: none;
+	width: auto;
+}
+#sub{
+display:none;
+}
+#main section{
+	padding:10px;
+	background-color:#EEE;
+	border-radius: 0px; /* CSS3草案 */ 
+	-webkit-border-radius: 0px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 0px; /* Firefox用 */ 
+}
+
+/*mainコンテンツ
+---------------------------------------------------------------------------*/
+/*mainコンテンツのh3タグの設定*/
+
+#main h3{
+	margin-left:0px;
+	padding-left:10px;
+	background: #339900;
+	color: #fff;
+	border-radius:0px;
+	position: relative;
+}
+#main h3:before{
+	content: "";
+	position: absolute;
+	bottom: -23px;
+	left: 10px;
+	border: 12px solid transparent;
+	border-top: 12px solid #339900;
+}
+
+/*mainコンテンツの段落タグ設定*/
+/*#main p {
+	padding: 0.5em 5px 1em;
+}*/
+/*ページ下リンク
+----------------------------------------------------*/
+#lihk_other{
+	overflow:hidden;
+	background-color:#FFF;
+	border:none;
+	padding-top:0px;
+}
+/*SNS
+-----------------------------------*/
+#sns_list{
+	float:none;
+	padding:10px 0;
+}
+#sns_list ul{
+	overflow:hidden;
+	width:100%;
+}
+
+#sns_list ul li{
+	float:left;
+	text-align:center;
+	width:25%;
+	margin-left:0px;
+}
+#sns_list ul li a img{
+width:60%;
+}
+
+/*お仕事体験＆資料請求
+--------------------------------------*/
+#ev_btn{
+	float:none;
+	width:100%;
+}
+
+#ev_btn ul{
+	overflow:hidden;
+	width:100%;
+}
+
+#ev_btn ul li{
+	float:left;
+	text-align:center;
+	width:50%;
+}
+
+#ev_btn ul li a{
+display:block;
+padding:10px;
+margin:0px 10px;
+color:#FFF;
+font-size:117%;
+background-color:#8BCD38;
+border-radius:10px;
+-webkit-border-radius: 10px; /* Safari,Google Chrome用 */ 
+-moz-border-radius: 10px; /* Firefox用 */ 
+text-decoration:none;
+}
+
+#ev_btn ul li.ev_btn_mb{
+display:none;
+}
+#ev_btn ul li.ev_btn_tb{
+display:block;
+}
+/*ページ下リンク
+-----------------------------------------------------*/
+
+
+/*gallery.html内のブロック
+---------------------------------------------------------------------------*/
+/*各ボックスの設定*/
+#main section.list article {
+	float: none;
+	width: 100%;
+	height: auto;
+	margin: 0px 0px 15px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+/*各ボックス内の画像設定*/
+#main section.list article img {
+	float: left;	/*左に回り込み*/
+	width: 30%;		/*画像幅*/
+	height: auto;
+	margin-right: 20px;
+}
+
+/*トップページのメイン画像
+---------------------------------------------------------------------------*/
+#mainimg {
+	height: auto;
+	width: 100%;
+	margin-bottom: 5px;
+}
+#slide_image {
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#slide_image2 {
+	height: auto;
+	width: 100%;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+/*フッター設定
+---------------------------------------------------------------------------*/
+footer {
+	margin-top:10px;
+	border-top: 2px solid #8BCD38;
+	padding:0;
+}
+
+footer #ft_logo{
+	margin:auto;
+	width:60%;
+}
+footer #ft_logo img{
+	width:100%;
+}
+
+footer #ft_logo a.ft_logo_mb{
+	display: none;
+}
+footer #ft_logo a.ft_logo_tb{
+	display: block;
+}
+
+/*アドレス*/
+#footer_address{
+	width:60%;
+	margin:10px auto;
+	padding:2px 0px;
+	clear: both;
+	overflow:hidden;
+	background-color:#EEE;
+	border:1px solid #8BCD38;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#footer_address ul{
+	width:100%;
+	display:table;
+}
+#footer_address li{
+	display:table-cell;
+	text-align:left;
+	vertical-align:middle;
+	float:left;
+	width:49%;
+}
+#footer_address li a{
+	font-size:100%;
+	padding:6px 0px;
+	display:block;
+}
+
+#footer_address li.address_mail{
+	border-left:1px solid #8BCD38;
+}
+#footer_address li.address_tel a{
+	background:url(../img/ico_tel.png) no-repeat 5% 50%;
+	padding-left:18%;
+}
+#footer_address li.address_mail a{
+	background:url(../img/ico_mail.png) no-repeat 5% 50%;
+	padding-left:20%;
+}
+/*アドレスEND*/
+
+/*プライバシーポリシー*/
+#footer_privacy{
+	width:60%;
+	margin:10px auto;
+	overflow:hidden;
+}
+#footer_privacy ul{
+	width:100%;
+	display:table;
+}
+#footer_privacy li{
+	display:table-cell;
+	float:left;
+	width:49%;
+	font-size:84%;
+}
+#footer_privacy li.privacy{
+	text-align:right;
+	border-right:1px solid #333;
+}
+#footer_privacy li.social{
+	text-align:left;
+	border-left:1px solid #FFF;
+}
+#footer_privacy li a{
+	padding:10px;
+}
+#footer_privacy .copyright{
+	margin-top:10px;
+	text-align:center;
+	font-size:84%;
+}
+#footer_privacy .footer_privacy_mb{
+display:none;
+}
+#footer_privacy .footer_privacy_pc{
+display:block;
+}
+/*プライバシーポリシーEND*/
+
+/*Copyright*/
+.copyright{
+font-size:88%;
+}
+
+
+
+
+/*テーブル１
+---------------------------------------------------------------------------*/
+.ta1 {
+	width: 96%;
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+/*写真の設定*/
+img.wa {
+	width: 100%;
+	height: auto;
+}
+#sub #submenu {
+	display: none;
+}
+#menubar {
+	display: block;
+}
+
+/*youtube動画*/
+iframe{
+	width:100%;
+	/*width:400px;*/
+	/*height:225px;*/
+	height:300px;
+}
+.iframeBox{
+	text-align:center;
+}
+
+/* @group youtubeList */
+#youtubeList {
+	margin: 0;
+	padding: 0;
+}
+#youtubeList .video_s {
+	margin:20px 0 0;
+	width:100%;
+	height:300px;
+}
+
+#youtubeList dl {/*PC用を上書き*/
+	width:auto;
+	float:none;
+}
+#youtubeList dl {
+	margin: 10px 0;
+	padding: 10px;
+	clear: both;
+	overflow:hidden;
+	background-color:#FFF;
+	border-radius:5px;
+	-webkit-border-radius: 5px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 5px; /* Firefox用 */ 
+}
+#youtubeList dt {
+	margin: 0;
+	width: 100px;
+	height: 80px;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+#youtubeList dt img {
+	overflow: hidden;
+	width: 100px;
+	height: 80px;
+}
+#youtubeList dd {
+	margin: 0 0 0 110px;
+	padding: 0;
+}
+
+/* @end */

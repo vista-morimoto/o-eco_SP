@@ -1,0 +1,180 @@
+﻿@charset "UTF-8";
+
+/*
+======== table of content. =================================
+
+summary: sample page style
+
+============================================================
+*/
+
+
+body {
+	padding: 40px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+/**
+ * sample-1
+ */
+#sample-1 {
+	width: 158px;
+	height: 58px;
+	background-color: #000000;
+	border: #000000 1px solid;
+	margin-bottom: 80px;
+}
+
+#sample-1 h3 {
+	padding: 0px;
+	margin: 0px;
+}
+#sample-1 h3 a {
+	display: block;
+	width: 158px;
+	height: 42px;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: transparent url( sample_01_image.gif ) no-repeat 0px 0px;
+	margin-bottom: 2px;
+}
+
+#twiline-1 {
+	width: 158px;
+	margin: 0 auto;
+}
+
+#twiline-1 .time {
+	color: #CCCCCC;
+}
+
+#twiline-1 a {
+	color: #999999;
+}
+#twiline-1 a:hover {
+	color: #CCCCCC;
+}
+
+
+/**
+ * sample-2
+ */
+#sample-2 {
+	position: relative;
+	width: 960px;
+	height: 34px;
+	background: transparent url( sample_02_bg_twiline.gif ) no-repeat 0px 0px;
+	margin-bottom: 80px;
+}
+
+#sample-2 .follow {
+	position: absolute;
+	left: 38px;
+	top: 4px;
+}
+#sample-2 .follow a {
+	display: block;
+	width: 25px;
+	height: 27px;
+	overflow: hidden;
+	background: transparent url( sample_02_btn_follow.gif ) no-repeat 0px 0px;
+	text-indent: -9999px;
+}
+#sample-2 .follow a:hover {
+	background-position: -25px 0px;
+}
+
+#twiline-2 {
+	position: absolute;
+	left: 66px;
+	top: 9px;
+	width: 881px;
+}
+
+#twiline-2 a {
+	color: #666666;
+}
+#twiline-2 a:hover {
+	color: #222222;
+}
+
+
+/**
+ * sample-3
+ */
+#sample-3 {
+	position: relative;
+	width: 728px;
+	height: 117px;
+	border: #000000 1px solid;
+	background-color: #000000;
+}
+
+#sample-3 h3 {
+	margin: 0px;
+	padding: 0px;
+}
+#sample-3 h3 a {
+	display: block;
+	width: 728px;
+	height: 83px;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: transparent url( sample_03_image.gif ) no-repeat 0px 0px;
+}
+
+#sample-3 .bg {
+	position: absolute;
+	left: 4px;
+	top: 88px;
+	width: 595px;
+	height: 25px;
+	background: transparent url( sample_03_bg_twiline.gif ) no-repeat 0px 0px;
+}
+
+#twiline-3 {
+	position: absolute;
+	left: 2px;
+	top: 8px;
+	width: 586px;
+}
+
+#twiline-3 p .time {
+	color: #CCCCCC;
+}
+#twiline-3 a {
+	color: #999999;
+}
+#twiline-3 a:hover {
+	color: #CCCCCC;
+}
+
+#icon-3 {
+	position: absolute;
+	left: 604px;
+	top: 88px;
+	width: 25px;
+	height: 25px;
+}
+
+#sample-3 .follow {
+	position: absolute;
+	left: 635px;
+	top: 89px;
+}
+
+#sample-3 .follow a {
+	display: block;
+	width: 88px;
+	height: 23px;
+	overflow: hidden;
+	background: transparent url( sample_03_btn_follow.jpg ) no-repeat 0px 0px;
+	text-indent: -9999px;
+	outline: none;
+}
+#sample-3 .follow a:hover {
+	background-position: -88px 0px;
+}

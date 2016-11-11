@@ -1,0 +1,13 @@
+@charset "Shift-JIS";
+/*
+ * import.css
+ *
+ *  version --- 3.4
+ *  updated --- 2011/07/12
+ */
+
+@import "reset_normalize.css";
+@import "cmn_layout.css";
+@import "cmn_style.css";
+@import "course.css";
+@import "generalpurpose.css";

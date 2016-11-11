@@ -1,0 +1,158 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<header>
+  <div id="hd_inner">
+    <h1 id="hd_logo"><a href="../index.html"><img src="../common/img/logo.gif" alt="動物 専門学校 大阪ECO動物海洋専門学校" width="198"></a></h1>
+    <nav id="hd_links">
+      <ul>
+        <li><a href="#modal" class="second open"><img src="../common/img/header_menu.png" alt="メニュー"></a></li>
+        <li><a href="http://www.osaka-eco.ac.jp/"><img src="../common/img/header_pc.png" alt="PC"></a></li>
+      </ul>
+    </nav>
+    <!-- /hd_inner --></div>
+</header>
+<div id="modal">
+    <p class="Close"><a href="javascript:$.pageslide.close()">Close</a></p>
+    <p class="textC"><img src="../img/imgIcoFace.gif" width="154" height="15" alt="このアイコンははPCサイトへのリンクです"></p>
+    <h2>体験入学</h2>
+    <nav>
+        <ul>
+            <li><a href="http://www.osaka-eco.ac.jp/event/index.html">体験入学（オープンキャンパス）</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/event/results.html?type[]=3">スペシャルイベント</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/event/myschool.html">Myスクールプログラム</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/event/bus.html">無料送迎バス</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/event/results.html?type[]=1">学校説明会・相談会</a></li>
+        </ul>
+    </nav>
+
+    <h2>学校紹介・教育システム</h2>
+    <nav>
+        <ul>
+            <li><a href="../school/">学校紹介・教育システム</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/school/talk.html">ムツゴロウさん×卒業生座談会</a></li>
+            <li><a href="../school/access.html">所在地＆アクセスマップ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/school/event.html">イベント</a></li>
+            <!--<li><a href="../school/dormitory.html">学生マンション紹介</a></li>-->
+            <li><a href="../school/support.html">学生生活サポートシステム</a></li>
+            <!--<li><a href="../school/circle.html">サークル・クラブ活動</a></li>-->
+            <li><a href="../school/practice_class.html">校内実習・授業</a></li>
+            <li><a href="../school/training.html">校外実習</a></li>
+            <li class="small"><a href="../school/project.html">企業プロジェクト</a></li>
+            <!--<li><a href="../school/overseas_training.html">海外実学教育</a></li>-->
+            <li class="small"><a href="../school/w_curriculum.html">Ｗメジャーカリキュラム</a></li>
+            <li><a href="../graduate/seminar/">卒後教育セミナー</a></li>
+            <li><a href="../school/faq.html">よくある質問</a></li>
+            <li><a href="../school/link.html">滋慶学園グループ校</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/school/media.html">マスコミ掲載情報</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/school/social.html">SNS公式アカウント一覧</a></li>
+      </ul>
+    </nav>
+    
+    <h2>専攻紹介</h2>
+    <nav>
+        <ul>
+            <li><a href="../course/">専攻紹介</a></li><br>
+            <li><a href="../course/animalnurse.html">動物看護師専攻</a></li>
+            <li><a href="../course/animalwelfare.html">動物看護福祉&amp;理学療法専攻</a></li>
+            <li class="small"><a href="../course/dogtrainer.html">ドッグトレーナー専攻</a></li>
+            <li class="small"><a href="../course/dogmaster.html">ドッグマスター専攻</a></li>
+            <li class="small"><a href="../course/pettrimmer.html">ペットトリマー&amp;エステティシャン専攻</a></li>
+            <li class="small"><a href="../course/dogcafe.html">ドッグカフェ専攻</a></li><br>
+            <li><a href="../course/wildanimal.html">野生動物&amp;環境保護専攻</a></li>
+            <li><a href="../course/zookeeper.html">動物園・動物飼育専攻<br />動物園公務員専攻</a></li>
+            <li class="small"><a href="../course/dolphintrainer.html">ドルフィントレーナー専攻</a></li>
+            <li class="small"><a href="../course/aquarist.html">水族館・アクアリスト専攻</a></li>
+            <li class="small"><a href="../course/oceanprotect.html">海洋生物保護専攻</a></li><br>
+            <li><a href="../course/flowershop.html">フラワーショップ&amp;ブライダルフラワー専攻</a></li>
+        </ul>
+    </nav>
+    
+    <h2>講師紹介</h2>
+    <nav>
+        <ul>
+            <li><a href="../instructor/">講師紹介</a></li>
+            <li><a href="../instructor/">トッププロが教える</a></li>
+            <li><a href="../instructor/index.html#doginstructor">ドッグ系担当講師一覧</a></li>
+            <li><a href="../instructor/index.html#animalinstructor">アニマル系担当講師一覧</a></li>
+            <li><a href="../instructor/index.html#marineinstructor">海洋系担当講師一覧</a></li>
+            <li><a href="../instructor/index.html#natureinstructor">自然環境系担当講師一覧</a></li>
+            <li><a href="../instructor/index.html#flowerinstructor">フラワー系担当講師一覧</a></li>
+        </ul>
+    </nav>
+    
+    <h2>就職・資格</h2>
+    <nav>
+        <ul>
+            <li><a href="../job/">就職サポート</a></li><br>
+            <li><a href="../job/career_center.html">キャリアセンター</a></li>
+            <li><a href="../job/job_schedule.html">就職スケジュール</a></li>
+            <li><a href="../job/corporate_results.html">合同企業説明会</a></li>
+            <li><a href="../school/training.html">インターンシップ</a></li>
+            <li><a href="../job/field.html">就職実績</a></li>
+            <li><a href="../job/qualification.html">資　格</a></li>
+            <li><a href="../job/graduate.html">卒業生インタビュー</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/job/jobday01.html">発見！探検！プロの仕事場</a></li>
+            <li><a href="../job/support.html">卒業後支援</a></li>
+        </ul>
+    </nav>
+    
+    <h2>キャンパスライフ</h2>
+    <nav>
+        <ul>
+            <li><a href="../campus/">キャンパスライフ</a></li>
+            <li><a href="../campus/equipment.html">施設・設備</a></li>
+            <li><a href="../school/practice_class.html">校内実習・授業</a></li>
+            <li><a href="../school/overseas_training.html">海外実学教育</a></li>
+            <li class="small"><a href="../school/circle.html">サークル・クラブ活動</a></li>
+            <li><a href="../school/eventcalender.html">年間スケジュール</a></li>
+            <li class="small"><a href="../school/dormitory.html">学生マンション紹介</a></li>
+            <li class="small"><a href="../school/support.html">学生生活サポートシステム</a></li>
+            <li><a href="../campus/aroundschool.html">学校周辺環境</a></li>
+            <li><a href="../campus/photo_gallery/">大阪ECOの動物たち</a></li>
+            <li><a href="../campus/photo_dogs/">実習で協力してくれているワンちゃん達</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/blogs/">大阪ECOのブログ</a></li>
+        </ul>
+    </nav>
+    
+    <h2>入学案内</h2>
+    <nav>
+        <ul>
+            <li><a href="../invitation/">入学案内</a></li>
+            <li><a href="../invitation/introduction.html">募集学科・専攻表</a></li>
+            <li><a href="../invitation/eligibility.html">入学資格・出願方法</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/invitation/ao.html">AO入学制度について</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/invitation/flow.html">出願から合格までの流れ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/invitation/transfer.html">編入学制度について</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/invitation/support.html">学費サポート</a></li>
+            <li><a href="../invitation/method.html">出願願書記入方法</a></li>
+        </ul>
+    </nav>
+    
+    <h2>同窓会サイト</h2>
+    <nav>
+        <ul>
+            <li><a href="../graduate/alumni/">卒業生の方へ（同窓会）</a></li>
+            <li><a href="../graduate/seminar/">ECO 卒後教育セミナー</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/graduate/gmd/index.html">グッドマナードッグ検定指導員</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/graduate/info/index.html">インフォメーション</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/graduate/shop/index.html">卒業生ショップ・会社情報</a></li>
+        </ul>
+    </nav>
+    <h2>訪問者別ガイド</h2>
+    <nav>
+        <ul>
+            <li><a href="../user/for_entry.html">入学をお考えの方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/student/">在校生の方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/user/for_parent.html">保護者の方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/user/abroad.html">留学生の方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/user/for_company.html">企業の方へ</a></li>
+            <li><a href="http://www.osaka-eco.ac.jp/user/for_teacher.html">高校生の方へ</a></li>
+        </ul>
+    </nav>
+
+    <p class="Close"><a href="javascript:$.pageslide.close()">Close</a></p>
+</div>
+<script type="text/javascript" src="../common/js/jquery.pageslide.min.js"></script>
+<script>
+	$(".first").pageslide();
+	$(".second").pageslide({direction: "left", modal: true});
+</script>

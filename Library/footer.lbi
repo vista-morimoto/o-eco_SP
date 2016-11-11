@@ -1,0 +1,46 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<footer>
+  <ul id="device">
+    <li><a href="http://www.osaka-eco.ac.jp/">PCサイト</a></li>
+    <li>スマートフォン</li>
+  </ul>
+  <div id="contact">
+    <ul>
+      <li><a href="tel:0120141807" onclick="javascript&colon;goog_report_conversion('tel:0120141807');yahoo_report_conversion(undefined);ga('send', 'event', '電話リンク', 'タップ');">0120-141-807</a></li>
+      <li><a href="mailto:info@osaka-eco.ac.jp">info@osaka-eco.ac.jp</a></li>
+    </ul>
+  </div>
+  <address>
+  学校法人コミュニケーションアート<br>
+  大阪ECO動物海洋専門学校<br>
+  旧校名・大阪コミュニケーションアート専門学校 ECO<br>
+  学校長 鞍井修一<br>
+  〒550-0013 大阪市西区新町1-32-1
+  </address>
+    <aside id="Approval">
+      <div>
+          <h6>（動物取扱業登録）</h6>
+          <p>120069Ｂ / 070296Ｄ / 120069Ｅ /120069Ｃ</p>
+      </div>
+      <div>
+          <h6>（登録の年月日）</h6>
+          <p>平成19年8月30日（訓練業）、平成24年9月7日（保管業、展示業、貸出し業）</p>
+      </div>
+      <div>
+          <h6>（登録の有効期間の末日）</h6>
+          <p>平成29年8月29日（訓練業）、平成29年9月6日（保管業、展示業、貸出し業）</p>
+      </div>
+      <div>
+          <h6>（登録に係る第一種動物取扱業の種別）</h6>
+          <p>保管・訓練・展示・貸出</p>
+      </div>
+      <div>
+          <h6>（動物取扱責任者）</h6>
+          <p>粟津　邦彦</p>
+      </div>
+    </aside>
+  <small>Copyright &copy; OSAKA COLLEGE OF ECO &amp; ANIMALS.</small>
+  <p><a href="../privacy/index.html">プライバシーポリシー</a></p>
+  <p><a href="../socialpolicy/index.html">ソーシャルメディアポリシー</a></p>
+</footer>

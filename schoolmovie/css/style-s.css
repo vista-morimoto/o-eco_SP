@@ -1,0 +1,546 @@
+@charset "utf-8";
+
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+body {
+	background: url(none);
+}
+
+/*h1タグ設定
+---------------------------------------------------------------------------*/
+h1#hd_logo{
+	width:80%;
+	margin:auto;
+}
+h1#hd_logo img{
+	width:100%;
+}
+
+h1#hd_logo a.hd_logo_mb{
+	display: block;
+}
+
+h1#hd_logo a.hd_logo_tb{
+	display: none;
+}
+
+
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	width: auto;
+	padding: 10px 0px;	/*ボックス内の余白*/
+}
+
+/*ヘッダー（サイト名ロゴが入ったブロック）
+---------------------------------------------------------------------------*/
+header {
+	margin-bottom: 0px;
+}
+
+/*ナビゲーション*/
+#topNavi_pc{display:none;}
+
+
+#topNavi{
+	display:block;
+	padding-left:1px;
+	margin-bottom:10px;
+}
+#topNavi ul{
+	display: table;
+	table-layout: fixed;
+	width:100%;
+}
+#topNavi li{
+	border-right: 1px solid #FFF;
+	display: table-cell;
+}
+#topNavi li:last-child{
+border-right: none;
+}
+
+#topNavi li a{
+	display:block;
+	text-align:center;
+	padding:10px 0;
+	text-decoration:none;
+	font-size:117%;
+	background-color:#8BCD38;
+	border-right:1px solid #FFF;
+	border-bottom:4px solid #EEE;
+	color:#FFF;
+}
+
+#topNavi li.topNavi_mb{
+display:block;
+}
+#topNavi li.topNavi_tb{
+display:none;
+}
+
+/*タブレット・スマホ専用メニュー
+---------------------------------------------------------------------------*/
+/*メニュー１個ごとの設定*/
+#menubar ul {
+	margin:10px;
+}
+
+#menubar ul li a{
+	float: none;
+	width: 100%;
+	margin:0 0 6px 0;
+	padding:5px 0;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	font-size:117%;
+	background-color:#C4E699;
+	border-radius: 5px;
+	-webkit-border-radius: 5px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 5px; /* Firefox用 */ 
+	box-shadow:0 3px #8BCD38;
+	border-bottom:1px solid #FFF;
+	}
+#menubar ul li a:hover{
+	box-shadow:none;
+	background-color:#C4E699;
+}
+
+
+/*最後のメニューの設定*/
+#menubar ul li:last-child {
+	margin-bottom: 20px;
+}
+
+
+/*コンテンツ（main,subを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	width: auto;
+}
+
+/*main,subコンテンツ
+---------------------------------------------------------------------------*/
+#main, #sub {
+	float: none;
+	width: auto;
+}
+#sub{
+display:none;
+}
+#main section{
+	padding:10px;
+	background-color:#EEE;
+	border-radius: 0px; /* CSS3草案 */ 
+	-webkit-border-radius: 0px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 0px; /* Firefox用 */ 
+}
+/*mainコンテンツ
+---------------------------------------------------------------------------*/
+/*mainコンテンツのh3タグの設定*/
+
+#main h3{
+	margin-left:0px;
+	padding-left:10px;
+	background: #339900;
+	color: #fff;
+	border-radius:0px;
+	position: relative;
+}
+#main h3:before{
+	content: "";
+	position: absolute;
+	bottom: -23px;
+	left: 10px;
+	border: 12px solid transparent;
+	border-top: 12px solid #339900;
+}
+
+/*mainコンテンツの段落タグ設定*/
+/*#main p {
+	padding: 0.5em 5px 1em;
+}*/
+
+
+/*ページ下リンク
+----------------------------------------------------*/
+#lihk_other{
+	overflow:hidden;
+	background-color:#FFF;
+	border:none;
+	padding-top:0px;
+}
+/*SNS
+------------------------------------------*/
+#sns_list{
+	float:none;
+	padding:10px 0;
+}
+#sns_list ul{
+	overflow:hidden;
+	width:100%;
+}
+
+#sns_list ul li{
+	float:left;
+	text-align:center;
+	width:25%;
+	margin-left:0px;
+}
+#sns_list ul li a img{
+width:90%;
+}
+
+/*お仕事体験＆資料請求
+------------------------------------------*/
+#ev_btn{
+	float:none;
+	width:100%;
+}
+
+#ev_btn ul{
+	overflow:hidden;
+	width:100%;
+}
+
+#ev_btn ul li{
+	float:left;
+	text-align:center;
+	width:50%;
+}
+
+#ev_btn ul li a{
+display:block;
+padding:10px;
+margin:0px 10px;
+color:#FFF;
+font-size:117%;
+background-color:#8BCD38;
+border-radius:10px;
+-webkit-border-radius: 10px; /* Safari,Google Chrome用 */ 
+-moz-border-radius: 10px; /* Firefox用 */ 
+text-decoration:none;
+}
+
+#ev_btn ul li.ev_btn_mb{
+display:block;
+}
+#ev_btn ul li.ev_btn_tb{
+display:none;
+}
+/*ページ下リンク
+----------------------------------------------------*/
+
+
+/*gallery.html内のブロック
+---------------------------------------------------------------------------*/
+/*各ボックスの設定*/
+#main section.list article {
+	width: 96%;		/*ボックスの幅*/
+	height: auto;	/*ボックスの高さ*/
+	float: none;
+	margin: 0px auto 15px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#main section.list article img {
+	width: 100%;	/*ボックスの幅*/
+	height: auto;	/*ボックスの高さ*/
+}
+
+/*トップページのメイン画像
+---------------------------------------------------------------------------*/
+#mainimg {
+	height: auto;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-bottom: 20px;
+}
+#mainimg img {
+	border: 5px solid #FFF;
+}
+#slide_image {
+	height: auto;
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#slide_image2 {
+	height: auto;
+	width: 100%;
+	position: absolute;
+	left:0px;
+	top:0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/*フッター設定
+---------------------------------------------------------------------------*/
+footer {
+	margin-top:10px;
+	border-top: 2px solid #8BCD38;
+	padding:0px;
+}
+
+footer #ft_logo{
+	margin:auto;
+	width:75%;
+}
+footer #ft_logo img{
+	width:100%;
+}
+
+footer #ft_logo a.ft_logo_mb{
+	display: block;
+}
+footer #ft_logo a.ft_logo_tb{
+	display: none;
+}
+
+
+/*アドレス*/
+#footer_address{
+	width:auto;
+	margin:10px;
+	margin-top:5px;
+	padding:2px 0px;
+	clear: both;
+	overflow:hidden;
+	border:1px solid #8BCD38;
+	background-color:#EEE;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#footer_address ul{
+	width:100%;
+	display:table;
+}
+#footer_address li{
+	display:table-cell;
+	text-align:left;
+	vertical-align:middle;
+	float:left;
+	width:49%;
+}
+#footer_address li a{
+	font-size:84%;
+	padding:6px 0px;
+	display:block;
+}
+
+#footer_address li.address_mail{
+	border-left:1px solid #8BCD38;
+}
+#footer_address li.address_tel a{
+	background:url(../img/ico_tel.png) no-repeat 5% 50%;
+	padding-left:18%;
+}
+#footer_address li.address_mail a{
+	background:url(../img/ico_mail.png) no-repeat 5% 50%;
+	padding-left:20%;
+}
+/*アドレスEND*/
+
+/*プライバシーポリシー*/
+#footer_privacy{
+	width:100%;
+	margin:0px;
+}
+#footer_privacy ul{
+	width:100%;
+	display:table;
+}
+#footer_privacy li{
+	display:table-cell;
+	float:left;
+	width:49%;
+	font-size:84%;
+}
+#footer_privacy li.privacy{
+	text-align:right;
+	border-right:1px solid #333;
+}
+#footer_privacy li.social{
+	text-align:left;
+	border-left:1px solid #FFF;
+}
+#footer_privacy li a{
+	color:#333;
+	padding:10px;
+}
+#footer_privacy li.social a{
+	padding-right:0px;
+}
+#footer_privacy .copyright{
+	margin-top:10px;
+	text-align:center;
+	font-size:84%;
+}
+#footer_privacy .footer_privacy_mb{
+display:block;
+}
+#footer_privacy .footer_privacy_pc{
+display:none;
+}
+/*プライバシーポリシーEND*/
+
+/*Copyright*/
+.copyright{
+font-size:88%;
+}
+
+/*トップページ内「更新情報・お知らせ」ブロック
+---------------------------------------------------------------------------*/
+section#new h2.open {
+	background: url(../images/btn_minus.png) no-repeat right center, -webkit-gradient(linear, left top, left bottom, from(#bbd890), to(#5fa003));
+	background: url(../images/btn_minus.png) no-repeat right center, -webkit-linear-gradient(#bbd890, #6da220 49%, #5fa003 50%);
+	background: url(../images/btn_minus.png) no-repeat right center, linear-gradient(#bbd890, #6da220 49%, #5fa003 50%);
+}
+section#new h2.close {
+	background: url(../images/btn_plus.png) no-repeat right center, -webkit-gradient(linear, left top, left bottom, from(#bbd890), to(#5fa003));
+	background: url(../images/btn_plus.png) no-repeat right center, -webkit-linear-gradient(#bbd890, #6da220 49%, #5fa003 50%);
+	background: url(../images/btn_plus.png) no-repeat right center, linear-gradient(#bbd890, #6da220 49%, #5fa003 50%);
+}
+/*ブロック全体の設定*/
+#new dl {
+	height: auto;
+	padding-left: 0;
+}
+/*日付設定*/
+#new dt {
+	float: none;
+	width: auto;
+}
+/*記事設定*/
+#new dd {
+	padding-left: 0;
+}
+
+/*menu.html内のメニューブロック
+---------------------------------------------------------------------------*/
+/*各ボックスの設定*/
+#main section.list article {
+	float: none;
+	margin: 0px auto 1em;
+}
+
+/*テーブル１
+---------------------------------------------------------------------------*/
+.ta1 {
+	width: 100%;
+}
+/*テーブル内の右側*/
+.ta1 td{
+	width: auto;
+	padding: 2px;
+}
+/*テーブル内の左側の見出し部分*/
+.ta1 th{
+	width: 100px;
+	padding: 2px;
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+/*写真の設定*/
+img.wa {
+	width: 100%;
+	height: auto;
+}
+#sub #submenu {
+	display: none;
+}
+#menubar {
+	display: block;
+}
+/*メニュー折りたたみ設定*/
+#top #menubar_hdr {
+	display: none;
+}
+#menubar_hdr {
+	display: inline;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e5e5e5));
+	background-image: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+	background-image: linear-gradient(#fbfbfb, #e5e5e5);
+	padding: 10px;
+	border: 1px solid #cfcfcf;
+	border-radius: 0px 0px 6px 6px;
+	z-index: 10;
+}
+
+/*youtube動画*/
+iframe{
+	/*width:100% !important;*/
+	width:300px;
+	height:169px;
+}
+.iframeBox{
+	text-align:center;
+}
+.iframeBox iframe {
+	width:100%;
+	height:300px;
+}
+
+/* @group youtubeList */
+#youtubeList {
+	margin: 0;
+	padding: 0;
+}
+#youtubeList .video_s {
+	margin:20px 0 0;
+	width:100%;
+	height:300px;
+}
+#youtubeList .video_s iframe {
+	width:100%;
+	
+}
+#youtubeList dl {/*PC用を上書き*/
+	width:auto;
+	float:none;
+}
+#youtubeList dl {
+	margin: 10px 0;
+	padding: 10px;
+	clear: both;
+	overflow:hidden;
+	background-color:#FFF;
+	border-radius:5px;
+	-webkit-border-radius: 5px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 5px; /* Firefox用 */ 
+}
+#youtubeList dt {
+	margin: 0;
+	width: 100px;
+	height: 80px;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+#youtubeList dt img {
+	overflow: hidden;
+	width: 100px;
+	height: 80px;
+}
+#youtubeList dd {
+	margin: 0 0 0 110px;
+	padding: 0;
+}
+
+/* @end */
+

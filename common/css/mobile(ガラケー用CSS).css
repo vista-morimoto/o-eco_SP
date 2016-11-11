@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer {
+	margin: 0 auto;
+	width: 100%;
+	text-align: left;
+	padding: 20px 0;
+	background-color:#78c86d;
+	color:#FFF;
+	/*
+	background: url(../img/bg_footer01.png) left top repeat-x;
+	background-size: 10px 70px;
+	-moz-background-size: 10px 70px;
+	-webkit-background-size: 10px 70px;
+	-o-background-size: 10px 70px;
+	*/
+}
+
+footer a {
+	color:#FFF;
+	text-shadow:none;
+}
+
+
+#ft_inner {
+}
+#ft_links {
+	font-size: 75%;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 6px;
+}
+#ft_links li {
+	border-right: 1px solid #fff;
+	padding: 0 10px;
+	height: 1.5em;
+	line-height: 1.5em;
+	display: inline-block;
+}
+
+#ft_links li a {
+	color:#FFF;
+	/*text-shadow:none;*/
+}
+
+
+#ft_links li:first-child {
+	padding: 0 10px 0 0;
+}
+#ft_links li:last-child {
+	border-right: none;
+	padding: 0 0 0 10px;
+}
+#ft_copyright {
+	font-size: 58%;
+	text-align: center;
+	/*text-shadow:none;*/
+}
+
+#ft_copyright a {
+	color:#FFF;
+	/*text-shadow:none;*/
+}
+
+#ft_copyright img {
+/*
+font-size: 58%;
+	text-align: center;
+	margin-right: 10px;
+	*/
+}

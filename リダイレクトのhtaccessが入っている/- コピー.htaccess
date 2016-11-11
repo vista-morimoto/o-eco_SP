@@ -1,0 +1,5 @@
+AddType application/x-httpd-php .php .html
+AddHandler application/x-httpd-php .php .html
+
+RewriteEngine on
+RewriteRule ^index.html$ http://oca.ac.jp/eco/ [R=301,L]

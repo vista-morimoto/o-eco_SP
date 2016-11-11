@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*rss.css*/
+
+.entaList a{
+	text-decoration: none;
+}
+
+.blog-md-wrap{
+	overflow: hidden;
+}
+
+.blog-md{
+	padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.blog-md:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.blog-image{
+	overflow: hidden;
+	float: left;
+	width: 120px;
+	height: 118px;
+	margin: 0 10px 0 0;
+}
+
+.blog-image img{
+	width: 120px;
+}
+
+.date,.text{
+	font-size: 0.8em;
+	color: #333;
+	text-decoration: none;
+}
+
+.blog-md .title{
+    color: #ff6600;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+#top .entaList h3{
+	padding: 10px;
+}

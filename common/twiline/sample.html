@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>[jQuery]TwitterAPIから読み込んだつぶやきをスクロール – twiline.jsつぶやきが流れるバナーを簡単に作成できるjQueryプラグイン | レポート | 日本電子工藝社 大阪エコ</title>
+
+<meta name="author" content="株式会社日本電子工藝社" />
+<meta name="copyright" content="Copyright(c)2010 JAPAN ELECTRONIC INDUSTRIAL ARTS CO.LTD. All rights reserved." />
+
+<!-- style -->
+<link rel="stylesheet" type="text/css" media="all" href="sample.css" />
+
+<!-- script -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="./twiline.js"></script>
+<script type="text/javascript">
+
+$(function() {
+	
+	// sample1
+	$( '#twiline-1' ).twiline({
+		mode: 'user',
+		search: 'jeia3'
+	});
+	
+	// sample2
+	$( '#twiline-2' ).twiline({
+		mode: 'keyword',
+		search: 'jQuery',
+		fontsize: 18,
+		time: 'before',
+		link: 'a#link-2'
+	});
+	
+	// sample3
+	$( '#twiline-3' ).twiline({
+		mode: 'keyword',
+		search: 'jQuery',
+		icon: '#icon-3',
+		link: 'a#link-3',
+		time: 'hidden',
+		speed: 10
+	});
+});
+
+</script>
+</head>
+
+<body>
+	
+	<!-- sample1 -->
+	<h2>カスタマイズ例　（ユーザーのつぶやき、標準）</h2>
+	
+	<div id="sample-1">
+		<h3><a href="http://www.jeia.co.jp/">いざ、電網へ。</a></h3>
+		<div id="twiline-1"></div>
+	</div>
+	<!-- /sample1 -->
+	
+	<!-- sample2 -->
+	<h2>カスタマイズ例　（キーワード検索、経過時間表示、リンク表示、フォント18px）</h2>
+	
+	<div id="sample-2">
+		<div id="twiline-2"></div>
+		<div class="follow">
+			<a href="http://twitter.com/jeia3" id="link-2" target="_blank" title="フォローする">follow</a>
+		</div>
+	</div>
+	<!-- /sample2 -->
+	
+	<!-- sample3 -->
+	<h2>カスタマイズ例　（キーワード検索、時間表示なし、アイコン・リンク表示、スクロール倍速）</h2>
+	
+	<div id="sample-3">
+		<h3><a href="http://www.jeia.co.jp/">新しい価値の創造と、豊かな情報社会の発展を目指して いざ、電網へ。</a></h3>
+		<div id="icon-3"></div>
+		<div class="bg">
+			<div id="twiline-3"></div>
+		</div>
+		<div class="follow">
+			<a href="http://twitter.com/jeia3" id="link-3" target="_blank" title="フォローする">follow</a>
+		</div>
+	</div>
+	<!-- /sample3 -->
+	
+</body>
+
+</html>

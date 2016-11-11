@@ -1,0 +1,720 @@
+@charset "utf-8";
+
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+body {
+	color: #333;	/*全体の文字色*/
+	margin: 0px;
+	padding: 0px;
+	font: 12px/2 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";/*文字サイズ・行間・フォント設定*/
+	/*background: url(../images/bg.png);	/*背景画像の読み込み*/
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style-type: none;
+}
+img {
+	border: none;
+}
+input,textarea,select {
+	font-size: 1em;
+}
+form {
+	margin: 0px;
+}
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+/*リンク（全般）設定
+---------------------------------------------------------------------------*/
+a {
+	color: #333;	/*リンクテキストの色*/
+	text-decoration: none;
+}
+a:hover {
+	color: #390;			/*マウスオン時の文字色（全体）*/
+	text-decoration: none;	/*マウスオン時に下線を消す設定。残したいならこの１行削除。*/
+}
+
+/*h1ロゴの設定
+---------------------------------------------------------------------------*/
+h1#hd_logo{
+width:320px;
+}
+h1#hd_logo img{
+width:100%;	
+}
+
+h1#hd_logo a.hd_logo_mb{
+	display: none;
+}
+
+h1#hd_logo a.hd_logo_tb{
+	display: block;
+}
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	width: auto;
+	padding: 10px;	/*ボックス内の余白*/
+}
+
+
+/*ヘッダー（サイト名ロゴが入ったブロック）
+---------------------------------------------------------------------------*/
+header {
+	width: 100%;	/*ヘッダーブロックの幅*/
+	position: relative;
+	margin-bottom: 0px;
+}
+/*ロゴ画像*/
+header #logo img {
+	position: absolute;
+	z-index: 3;
+	left: 6%;		/*ヘッダーブロックに対して左から6pxの位置に配置*/
+	top: 17%;		/*ヘッダーブロックに対して上から6pxの位置に配置*/
+	width: 21%;		/*画像幅*/
+	height: auto;	/*画像の高さ。上の幅に合わせて高さは自動になる。*/
+}
+
+/*ナビゲーション*/
+#topNavi{
+display:none;
+}
+
+#topNavi_pc{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:280px;
+	background-color:#8BCD38;
+	border-radius:10px; /* CSS3草案 */ 
+	-webkit-border-radius:10px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius:10px; /* Firefox用 */ 
+}
+#topNavi_pc ul{
+	width:100%;
+	display: table;
+	table-layout: fixed;
+	overflow:hidden;
+}
+#topNavi_pc li{
+	width:50%;
+	display: table-cell;
+	border-right: 1px solid #FFF;
+	text-align:center;
+}
+#topNavi_pc li:last-child{
+border-right: none;
+}
+#topNavi_pc li a{
+	display:block;
+	padding:10px;
+	text-decoration:none;
+	font-size:117%;
+	font-weight:bold;
+	color:#FFF;
+}
+#topNavi_pc li.topNavi_event a{
+	border-radius:10px 0px 0px 10px; /* CSS3草案 */ 
+	-webkit-border-radius:10px 0px 0px 10px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius:10px 0px 0px 10px; /* Firefox用 */ 
+}
+#topNavi_pc li.topNavi_siryou a{
+	border-radius:0px 10px 10px 0px; /* CSS3草案 */ 
+	-webkit-border-radius:0px 10px 10px 0px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius:0px 10px 10px 0px; /* Firefox用 */ 
+}
+#topNavi_pc li.topNavi_event a:hover,
+#topNavi_pc li.topNavi_siryou a:hover{
+background-color:#C4E699;
+}
+
+
+
+/*トップページのスライドショー
+---------------------------------------------------------------------------*/
+#mainimg {
+	position: relative;
+	height: 300px;
+	width: 950px;
+	margin-bottom: 20px;
+	border-radius: 10px;	/*角丸のサイズ*/
+}
+#mainimg img {
+	border-radius: 10px;	/*角丸のサイズ*/
+	vertical-align: bottom;
+}
+#mainimg .slide_file {
+	display: none;
+}
+#slide_image {
+	z-index:2;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+#slide_image2 {
+	z-index:1;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+/*コンテンツ（main,subを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	overflow:hidden;
+}
+
+
+/*メインコンテンツ
+---------------------------------------------------------------------------*/
+#main {
+	width: 78%;	/*メインコンテンツ幅*/
+	float: right;	/*右側に回り込み*/
+}
+#main section{
+	padding:10px;
+	/*padding-left:0px;PCサイズのみ*/
+	background-color:#EEE;
+	border-radius: 10px; /* CSS3草案 */ 
+	-webkit-border-radius: 10px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 10px; /* Firefox用 */ 
+}
+
+/*mainコンテンツのh2タグの設定*/
+#main h2{
+margin-bottom:10px;
+padding:6px 0;
+text-align:center;
+font-size:117%;
+font-weight:bold;
+background-color:#C4E699;
+border-top:4px solid #8BCD38;
+border-bottom:4px solid #8BCD38;
+}
+
+/*mainコンテンツのh3タグの設定*/
+#main h3 {
+	font-size: 109%;
+	clear: both;
+	border-radius: 18px;	/*角丸のサイズ*/
+	color: #FFF;			/*文字色*/
+	line-height: 36px;		/*行間*/
+
+	margin-left:10px;/*PCサイズのみ*/
+	padding-left:10px;
+	background: #339900;
+	color: #fff;
+	border-radius:0px;
+	position: relative;
+}
+#main h3:before{
+	content: "";
+	position: absolute;
+	bottom: -23px;
+	left: 10px;
+	border: 12px solid transparent;
+	border-top: 12px solid #339900;
+}
+
+/*mainコンテンツの段落タグ設定*/
+#main p {
+/*	padding: 0.5em 20px 1em;	/*左から、上、左右、下への余白*/
+}
+
+/*gallery.html内のブロック
+---------------------------------------------------------------------------*/
+/*各ボックスの設定*/
+#main section.list article {
+	height: 370px;	/*ボックスの高さ*/
+	width: 280px;	/*ボックスの幅*/
+	border-radius: 10px;	/*角丸のサイズ*/
+	-webkit-box-shadow: 0px 1px 6px #999;	/*影の設定。それぞれ右へ、下へ、ぼかし幅、色の設定。*/
+	box-shadow: 0px 1px 6px #999;			/*同上*/
+	background-color: #FFF;	/*背景色（古いブラウザだとここの色のみが出ます）*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#e6e6e6));	/*グラデーション*/
+	background-image: -webkit-linear-gradient(#FFF, #e6e6e6);	/*同上*/
+	background-image: linear-gradient(#FFF, #e6e6e6);			/*同上*/
+	padding: 20px;	/*ボックス内の余白*/
+	float: left;
+	margin: 0px 14px 15px;
+	overflow: hidden;
+}
+/*ボックス内の段落タグ設定*/
+#main section.list article p {
+	padding: 0px;
+	color: #666;		/*文字色*/
+	font-size: 12px;	/*文字サイズ*/
+	line-height: 1.4;
+}
+/*ボックス内のh4タグ設定*/
+#main section.list article h4 {
+	font-size: 100%;
+	color: #5fa003;	/*文字色*/
+	border-bottom: 2px dotted #5fa003;	/*下線の幅、線種、色*/
+	margin-bottom: 5px;
+}
+
+/*サブコンテンツ
+---------------------------------------------------------------------------*/
+#sub {
+	float: left;	/*左側に回り込み*/
+	width: 21%;	/*サブコンテンツ幅*/
+	padding-bottom: 50px;
+}
+/*subコンテンツのh2タグの設定*/
+#sub h2 {
+	background-color: #8BCD38;
+	border-radius: 10px 10px 0px 0px;	/*角丸のサイズ。左上、右上、右下、左下への設定。*/
+	-webkit-border-radius: 10px 10px 0px 0px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 10px 10px 0px 0px; /* Firefox用 */
+	border-bottom:4px solid #EEE; 
+	color: #FFF;	/*文字色*/
+	font-size: 117%;
+	font-weight:bold;
+	text-align: center;	/*文字をセンタリング*/
+	padding: 8px 0px;	/*上下、左右への余白*/
+}
+
+/*メニュー（※サブコンテンツ内）
+---------------------------------------------------------------------------*/
+/*メニューブロック全体の設定*/
+#sub #submenu {
+	margin-bottom: 15px;	/*ブロックの下にスペースを空ける設定*/
+}
+/*メニュー１個ごとの設定*/
+#sub #submenu ul li a {
+	text-decoration: none;
+	text-align: center;	/*文字をセンタリング*/
+	display: block;
+	border-bottom: 1px dotted #8c8c8c;	/*下線の幅、線種、色*/
+	padding: 5px 0px;	/*上下、左右への余白*/
+	-webkit-transition: 0.5s;	/*マウスオン時の移り変わるまでの時間設定。0.5秒。*/
+	transition: 0.5s;			/*同上*/
+	font-size:117%;
+}
+#sub #submenu ul li a:hover {
+	background-color: #dfeccd;	/*マウスオン時の背景色*/
+}
+
+/*ページ下リンク
+----------------------------------------------------*/
+#lihk_other{
+	overflow:hidden;
+	/*background-color:#EEE;*/
+	border-top:3px solid #8BCD38;
+	border-bottom:3px solid #8BCD38;
+	padding-top:10px;
+}
+/*SNS
+-----------------------------------*/
+#sns_list{
+	float:left;
+}
+#sns_list ul{
+	overflow:hidden;
+}
+
+#sns_list ul li{
+	float:left;
+	text-align:center;
+	width:55px;
+	margin-left:20px
+}
+#sns_list ul li a img{
+width:55px;
+}
+
+
+/*お仕事体験＆資料請求
+--------------------------------------*/
+#ev_btn{
+	float:right;
+	width:40%;
+}
+
+#ev_btn ul{
+	overflow:hidden;
+	width:100%;
+}
+
+#ev_btn ul li{
+	float:left;
+	text-align:center;
+	width:50%;
+}
+
+#ev_btn ul li a{
+display:block;
+padding:12px;
+margin:0px 10px;
+color:#FFF;
+font-size:117%;
+background-color:#8BCD38;
+border-radius:10px;
+-webkit-border-radius: 10px; /* Safari,Google Chrome用 */ 
+-moz-border-radius: 10px; /* Firefox用 */ 
+text-decoration:none;
+}
+
+#ev_btn ul li.ev_btn_mb{
+display:none;
+}
+#ev_btn ul li.ev_btn_tb{
+display:block;
+}
+/*ページ下リンク
+-----------------------------------------------------*/
+
+
+/*フッター設定
+---------------------------------------------------------------------------*/
+footer {
+	clear: both;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+footer .pr {
+	display: block;
+	font-size: 80%;
+}
+footer a {
+	text-decoration: none;
+}
+
+/*フッター設定
+---------------------------------------------------------------------------*/
+footer {
+	margin-top:10px;
+	padding:0 0px;
+	padding-bottom:20px;
+}
+
+footer #ft_logo{
+	margin:auto;
+	width:40%;
+}
+
+footer #ft_logo img{
+	width:100%;
+}
+footer #ft_logo a.ft_logo_mb{
+	display: none;
+}
+footer #ft_logo a.ft_logo_tb{
+	display: block;
+}
+
+/*アドレス*/
+#footer_address{
+	width:45%;
+	margin:10px auto;
+	padding:2px 0px;
+	clear: both;
+	overflow:hidden;
+	border:1px solid #8BCD38;
+	background-color:#EEE;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#footer_address ul{
+	width:100%;
+	display:table;
+}
+#footer_address li{
+	display:table-cell;
+	text-align:left;
+	vertical-align:middle;
+	float:left;
+	width:49%;
+}
+#footer_address li a{
+	font-size:100%;
+	padding:8px 0px;
+	display:block;
+}
+
+#footer_address li.address_mail{
+	border-left:1px solid #8BCD38;
+}
+#footer_address li.address_tel a{
+	background:url(../img/ico_tel.png) no-repeat 5% 50%;
+	padding-left:18%;
+}
+#footer_address li.address_mail a{
+	background:url(../img/ico_mail.png) no-repeat 5% 50%;
+	padding-left:20%;
+}
+/*アドレスEND*/
+
+/*プライバシーポリシー*/
+#footer_privacy{
+	width:45%;
+	margin:10px auto;
+	overflow:hidden;
+}
+#footer_privacy ul{
+	width:100%;
+	display:table;
+}
+#footer_privacy li{
+	display:table-cell;
+	float:left;
+	width:49%;
+	font-size:84%;
+}
+#footer_privacy li.privacy{
+	text-align:right;
+	border-right:1px solid #333;
+}
+#footer_privacy li.social{
+	text-align:left;
+	border-left:1px solid #FFF;
+}
+#footer_privacy li a{
+	padding:10px;
+}
+#footer_privacy .copyright{
+	margin-top:10px;
+	text-align:center;
+	font-size:84%;
+}
+#footer_privacy .footer_privacy_mb{
+display:none;
+}
+#footer_privacy .footer_privacy_pc{
+display:block;
+}
+/*プライバシーポリシーEND*/
+
+/*Copyright*/
+.copyright{
+font-size:88%;
+}
+
+
+/*トップページ内「更新情報・お知らせ」ブロック
+---------------------------------------------------------------------------*/
+/*ブロック全体の設定*/
+#new dl{
+	overflow: auto;	/*高さ指定を超えるとiframe風にスクロールが出る設定。全部表示させたいならこの行と下のheightの行を削除。*/
+	height: 150px;
+	margin: 5px 20px 0px;
+}
+/*日付設定*/
+#new dt {
+	font-weight: bold;	/*太字にする設定。標準がいいならこの行削除。*/
+	float: left;
+	width: 8em;
+}
+/*記事設定*/
+#new dd {
+	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
+	padding-left: 8em;
+}
+#new dd img {
+	vertical-align: middle;
+}
+
+/*テーブル１
+---------------------------------------------------------------------------*/
+.ta1 {
+	width: 660px;
+	margin: 0px auto;
+}
+.ta1, .ta1 td, .ta1 th{
+	border: 1px solid #CCC;	/*テーブルの枠線の幅、線種、色*/
+	line-height: 2;
+}
+/*テーブル内の右側*/
+.ta1 td{
+	padding: 10px;
+}
+/*テーブル内の左側*/
+.ta1 th{
+	width: 180px;
+	padding: 10px;
+	text-align: center;
+	background-color: #ececed;	/*背景色*/
+}
+/*テーブル１行目に入った見出し部分*/
+.ta1 th.tamidashi{
+	width: auto;
+	text-align: left;
+	background-color: #e9ddae;	/*背景色（古いブラウザだとここの色のみが出ます）*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#efe6c5), to(#e9ddae));	/*グラデーション*/
+	background-image: -webkit-linear-gradient(#efe6c5, #e9ddae);	/*同上*/
+	background-image: linear-gradient(#efe6c5, #e9ddae);			/*同上*/
+}
+
+/*PAGE TOP設定
+---------------------------------------------------------------------------*/
+#pagetop {
+	clear: both;
+}
+#pagetop a {
+	color: #FFF;		/*文字色*/
+	font-size: 10px;	/*文字サイズ*/
+	background-color: #5fa003;	/*背景色*/
+	text-decoration: none;
+	text-align: center;
+	width: 12em;	/*ボックス幅*/
+	display: block;
+	float: right;
+	letter-spacing: 0.1em;
+}
+/*マウスオン時*/
+#pagetop a:hover {
+	background-color: #333;	/*背景色*/
+	color: #FFF;			/*文字色*/
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+.look {
+	background: #dcdcdc;
+}
+.mb15 {
+	margin-bottom: 15px;
+}
+.clear {
+	clear: both;
+}
+ul.disc {
+	padding: 0em 25px 1em;
+	list-style: disc;
+}
+.color1 {
+	color: #5fa003;
+}
+.color2 {
+	color: #FF0033;
+}
+.pr {
+	font-size: 10px;
+}
+.btn {
+	font-size: 13px;
+}
+.wl {
+	width: 96%;
+}
+.ws {
+	width: 50%;
+}
+.c {
+	text-align: center;
+}
+figcaption {
+	font-size: 11px;
+}
+#menubar_hdr {
+	display: none;
+}
+#menubar {
+	display: none;
+}
+
+
+/*youtube動画*/
+
+iframe{
+	/*width:100% !important;*/
+	/*width:700px;
+	height:394px;*/
+	width:650px;
+	height:365px;
+}
+.iframeBox{
+	text-align:center;
+}
+
+/* @group youtubeList */
+#youtubeList {
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+}
+#youtubeList .video_s:first-child {
+	/*display:none;*/
+}
+#youtubeList .video_s {
+	margin:20px 2% 0 0;
+	width:48%;
+	height:260px;
+	float:left;
+}
+#youtubeList .video_s.left {
+	margin:20px 0 0;
+}
+#youtubeList .video_s iframe {
+	width:100%;
+	height:100%;
+}
+#youtubeList dl {/*PCサイズのみ*/
+	width:159px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+
+}
+#youtubeList dl {
+	padding: 10px;
+	/*clear: both;*/
+	overflow:hidden;
+	background-color:#FFF;
+	border-radius:5px;
+	-webkit-border-radius: 5px; /* Safari,Google Chrome用 */ 
+	-moz-border-radius: 5px; /* Firefox用 */ 
+
+}
+#youtubeList dt {
+	margin: 0;
+}
+#youtubeList dt img {
+	width: 159px;
+	height:124px;
+}
+#youtubeList dd {
+	margin: 0;
+	padding: 0;
+}
+#youtubeList dd div.title {
+	font-size: 109%;
+	font-weight: bold;
+	line-height:1.3em;
+	padding-bottom:3px;
+	margin-bottom:8px;
+	border-bottom:2px solid #8BCD38;
+}
+#youtubeList dd div.title a{
+	text-decoration:none;
+}
+#youtubeList dd p{
+	line-height:1.3em;
+	color:#666;
+}
+#youtubeList dd p a{
+	color:#666;
+}
+#youtubeList dd p a:hover{
+	color:#DE4830;
+} 
+/* @end */
+
+
+iframe {
+	background-color:#CCC;
+}
