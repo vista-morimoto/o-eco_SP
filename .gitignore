@@ -1,0 +1,31 @@
+# シャープで始めるとコメント行になる
+
+# digital フォルダまるごと無視したい
+digital/
+
+# 下階層全てのフォルダ内で ".DS_Store"  "img/"ファイルを無視したい
+*/.DS_Store
+*/event/
+*/event/*
+*/img/
+*/img_*/
+*/img_*/*
+*/img/*/
+*/images/
+*/video/
+
+common/img02/
+common/img02/*
+
+# 下階層全てのフォルダ内で拡張子が .png .gif .jpg のファイルを無視したい
+*/*.png
+*/*.gif
+*/*.jpg
+
+# img フォルダをまるごと無視したい
+# だけど .png だけは無視したくない
+img/anime/*
+img/*.*
+images/*.*
+images/*/*
+images/*
