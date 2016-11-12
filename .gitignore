@@ -22,6 +22,7 @@ common/img02/*
 
 campus/photo_dogs/image_dogs/*
 campus/photo_gallery/img_animal/*
+job/naitei/*/img/*
 job/naitei/img/*
 
 # 下階層全てのフォルダ内で拡張子が .png .gif .jpg のファイルを無視したい
