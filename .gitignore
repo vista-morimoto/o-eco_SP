@@ -5,8 +5,11 @@ digital/
 
 # 下階層全てのフォルダ内で ".DS_Store"  "img/"ファイルを無視したい
 */.DS_Store
+event/
+event/*
 */event/
 */event/*
+*/event/*/*
 */img/
 */img_*/
 */img_*/*
@@ -16,6 +19,10 @@ digital/
 
 common/img02/
 common/img02/*
+
+campus/photo_dogs/image_dogs/*
+campus/photo_gallery/img_animal/*
+job/naitei/img/*
 
 # 下階層全てのフォルダ内で拡張子が .png .gif .jpg のファイルを無視したい
 */*.png
