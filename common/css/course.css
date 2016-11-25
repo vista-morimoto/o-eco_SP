@@ -61,6 +61,7 @@
 	float:left;
 	margin:0 5px 5px 0;
 	}
+
 #wrapper.courseWrap figure {
 	color:#F60;
 	font-weight:bold;
@@ -235,6 +236,7 @@
 	.PushGray .linkWcurri a {
 			background: url(../img/icoMaruArrow.png) 5px center no-repeat,-moz-linear-gradient(top,#FEC319 0%,#F8A505);
 			background: url(../img/icoMaruArrow.png) 5px center no-repeat,-webkit-gradient(linear, left top, left bottom, from(#FEC319), to(#F8A505));
+			background: url(../img/icoMaruArrow.png) 5px center no-repeat,linear-gradient(to bottom, #FEC319, #F8A505);
 			-moz-box-shadow: 1px 1px 3px rgba(000,000,000,0.3);
 			-webkit-box-shadow: 1px 1px 3px rgba(000,000,000,0.3);
 			text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
@@ -259,6 +261,7 @@
 	.PushGray .linkSiryou a {
 			background: url(../img/icoMaruArrow.png) 5px center no-repeat,-moz-linear-gradient(top,#2770CE 0%,#1642AC);
 			background: url(../img/icoMaruArrow.png) 5px center no-repeat,-webkit-gradient(linear, left top, left bottom, from(#2770CE), to(#1642AC));
+			background: url(../img/icoMaruArrow.png) 5px center no-repeat,linear-gradient(to bottom, #2770CE, #1642AC);
 			-moz-box-shadow: 1px 1px 3px rgba(000,000,000,0.3);
 			-webkit-box-shadow: 1px 1px 3px rgba(000,000,000,0.3);
 			text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
@@ -283,25 +286,28 @@
 	
 /*	主なカリキュラム20150218追加
 ---------------------------------------*/
-#Curric dd span {
+#Curric dd span/*, 
+#changeSupport dd span*/ {
 	border: 3px solid #88CD3E;
     border-radius: 3px 3px 3px 3px;
 	float: left;
 	margin-right: 10px;
 }
 
-#Curric img {
+#Curric img,
+#changeSupport img {
 	border:4px solid #FFF;
 	float: left;
 	width:238px;
 }
 
-#Curric dd {
+#Curric dd{
 	margin: 5px;
 }
 
 
-#Curric dl {
+#Curric dl,
+#changeSupport dl {
   overflow: hidden;
   zoom: 1;
 }
@@ -310,25 +316,31 @@
 ---------------------------------------*/
 	
 #Curric dt,
-#Curric dl {
+#Curric dl,
+#changeSupport dt,
+#changeSupport dl {
 	text-align:left;
 }
-#Curric dl {
+#Curric dl,
+#changeSupport dl {
 	margin-top:10px;
 }
-#Curric dt {
+#Curric dt,
+#changeSupport dt {
 	background:#C3E69E url(../../img/bgTit.png);
 	color:#22171F;
 	font-size:14px;
 	font-weight:bold;
 	padding:5px;
 	}
-#Curric dd {
+#Curric dd,
+#changeSupport dd {
 	padding:0 10px;
 	}
 #wrapper.courseWrap .titGra h3,
 #wrapper.courseWrap .otherWrap h2,
-#wrapper.courseWrap #Curric h2 {
+#wrapper.courseWrap #Curric h2,
+#wrapper.courseWrap #changeSupport h2 {
 	background:url(../img/bg_footer.png);
 	padding:5px;
 	margin-bottom:10px;
@@ -338,7 +350,8 @@
 	}
 	#Gra h3 > span,
 	.otherWrap h2 > span,
-	#Curric h2 > span {
+	#Curric h2 > span,
+	#changeSupport h2 > span {
 		display:inline-block;
 		background:url(../img/bg_oudo.png);
 		border-radius:3px;
@@ -382,6 +395,208 @@
 #aim .qualification h3 {
 	background:#FEB630;
 	} 
+
+/*ライフプランニング専攻*/
+.otherWrap dl {
+	margin:5px;
+}
+
+.otherWrap dd {
+	display:inline-block;
+}
+
+.otherWrap dd:after {
+		content: "/";
+		color:#CCC;
+	}
+.otherWrap dt.cu_animal {
+	background-color:#90D2ED;
+	color:#fff;
+	border-radius:4px;
+	text-align:center;
+}
+.otherWrap dt.cu_cook {
+	background-color:#FEE49F;
+	color:#fff;
+	border-radius:4px;
+	text-align:center;
+}
+.otherWrap dt.cu_bridal {
+	background-color:#DFC1DC;
+	color:#fff;
+	border-radius:4px;
+	text-align:center;
+}
+.otherWrap dt.cu_music {
+	background-color:#DBEABF;
+	color:#fff;
+	border-radius:4px;
+	text-align:center;
+}
+.otherWrap dt.cu_dance {
+	background-color:#BFE1D5;
+	color:#fff;
+	border-radius:4px;
+	text-align:center;
+}
+.otherWrap dt.cu_design {
+	background-color:#F7C5B6;
+	color:#fff;
+	border-radius:4px;
+	text-align:center;
+}
+.otherWrap dt.cu_anime {
+	background-color:#F7C7CA;
+	color:#fff;
+	border-radius:4px;
+	text-align:center;
+}
+#changeSupport dd span {
+	border: 3px solid #88CD3E;
+    border-radius: 3px 3px 3px 3px;
+	float: left;
+	margin-right: 10px;
+}
+
+#changeSupport img {
+	border:4px solid #FFF;
+	float: left;
+	width:238px;
+}
+#changeSupport dd {
+	margin: 5px;
+}
+#changeSupport dl {
+  overflow: hidden;
+  zoom: 1;
+}
+
+#changeSupport .change_program dl.change_left {
+	width:100%;	
+}
+#changeSupport .change_program dl.change_left>dt {
+    background:url(../../course/img_lifeplanning/label01.png) no-repeat left top;
+	background-size:130px 37px;
+	height:37px;
+	padding-left:20px;
+	padding-top:7px;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.2em;
+	box-sizing:border-box;
+	margin-left:5px;
+}
+#changeSupport .change_program dl.change_left>dd {
+	background-color:#fff;
+	border:solid 1px #ccc;
+	box-sizing:border-box;
+	padding:10px;
+	text-align:center;
+	margin-top:0;
+}
+#changeSupport .change_program dl.change_left>dd h5 {
+	color:#ED9CC1;
+	font-size:1.2em;
+	font-weight:bold;
+	border-top:solid 2px #ED9CC1;
+	border-bottom:solid 2px #ED9CC1;
+	line-height:2;
+}
+#changeSupport .change_program dl.change_left>dd img {
+	width:100%;
+	float:none;
+	margin:10px 0;
+	border:none;
+}
+#changeSupport .change_program dl.change_left dd dl.ex {
+	border-top:solid 1px #ED9CC1;
+	border-bottom:solid 1px #ED9CC1;
+	text-align:left;
+	overflow:hidden;
+	line-height:2;
+	font-weight:bold;
+	color:#ED9CC1;
+}
+#changeSupport .change_program dl.change_left dd dl.ex dt {
+	background:none;
+	color:#ED9CC1;
+	float:none;
+	padding-bottom:0;
+}
+#changeSupport .change_program dl.change_left dd dl.ex dd {
+	float:none;
+	margin-top:0;
+}
+#changeSupport .change_program dl.change_left dd dl.ex dd span {
+    color:#333;	
+	border:none;
+	float:none;
+	margin:0;
+}
+#changeSupport .change_program dl.change_right {
+	width:100%;
+}
+#changeSupport .change_program dl.change_right>dt {
+    background:url(../../course/img_lifeplanning/label02.png) no-repeat left top;
+	background-size:130px 37px;
+	height:37px;
+	padding-left:20px;
+	padding-top:7px;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.2em;
+	box-sizing:border-box;
+	margin-left:5px;
+}
+#changeSupport .change_program dl.change_right>dd {
+	background-color:#fff;
+	border:solid 1px #ccc;
+	box-sizing:border-box;
+	padding:10px;
+	text-align:center;
+	margin-top:0;
+}
+#changeSupport .change_program dl.change_right>dd h5 {
+	color:#5DC3E3;
+	font-size:1.2em;
+	font-weight:bold;
+	border-top:solid 2px #5DC3E3;
+	border-bottom:solid 2px #5DC3E3;
+	line-height:2;
+}
+#changeSupport .change_program dl.change_right>dd img {
+	width:100%;
+	float:none;
+	margin:10px 0;
+	border:none;
+}
+#changeSupport .change_program dl.change_right dd dl.ex {
+	border-top:solid 1px #5DC3E3;
+	border-bottom:solid 1px #5DC3E3;
+	text-align:left;
+	overflow:hidden;
+	line-height:2;
+	font-weight:bold;
+	color:#5DC3E3;
+}
+#changeSupport .change_program dl.change_right dd dl.ex dt {
+	background:none;
+	float:none;
+	padding-bottom:0;
+	color:#5DC3E3;
+}
+#changeSupport .change_program dl.change_right dd dl.ex dd {
+	float:none;
+	margin-top:0;
+}
+#changeSupport .change_program dl.change_right dd dl.ex dd span {
+    color:#333;	
+	border:none;
+	float:none;
+	margin:0;
+}
+
+/*ライフプランニング専攻_end*/
 
 .animals a {
 	text-align:center;
@@ -785,3 +1000,34 @@ section.agriList ul {
 	font-size: 0;
 	line-height: 0;
 }
+
+
+/*20161124追加*/
+#wrapper.courseWrap .accordion_nolink dt {
+		background-color:#E9F5DA;
+		background-image: url(../../img/bgTit.png) ;
+		background-position:top left;
+		background-repeat:repeat,no-repeat;
+		background-size:26px 16px;
+		border-bottom:2px solid rgba(255,255,255,0.5);
+		color:#22171F;
+		font-size:14px;
+		font-weight:bold;
+		padding:10px 5px;
+	}	
+	#wrapper.courseWrap .accordion_nolink dd {
+		padding:3px;
+	}
+	#wrapper.courseWrap #CoursePoint .accordion_nolink dd a {
+		display:inline-block;
+		padding:3px;
+		text-decoration:underline;
+		
+		background: #FFEBCC;
+		border: 1px solid #FFD295;
+		border-radius: 5px 5px 5px 5px;
+		display: inline-block;
+		margin-bottom: 5px;
+		margin-top: 10px;
+		padding: 5px;		
+		}
